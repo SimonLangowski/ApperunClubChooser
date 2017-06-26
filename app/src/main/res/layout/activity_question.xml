@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apperun.clubchooser.QuestionActivity">
+
+    <TableLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        <TableRow>
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_marginBottom="24dp"
+                android:textSize="24sp"
+                android:text="Question" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/choice1"
+                android:text="Choice1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="8dp"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow>
+        <Button
+            android:id="@+id/choice2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:text="choice2" />
+        </TableRow>
+
+        <TableRow>
+        <Button
+            android:id="@+id/choice3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:text="choice3"
+             />
+        </TableRow>
+
+        <TableRow>
+        <Button
+            android:id="@+id/choice4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:text="choice4"
+             />
+        </TableRow>
+
+        <TableRow>
+        <Button
+            android:id="@+id/choice5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:text="choice5"
+             />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

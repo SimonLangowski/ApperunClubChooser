@@ -1,0 +1,12 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_description">Title screen</string>
+    <string name="app_name">ClubChooser</string>
+    <string name="sponsor">Sponsor: %s</string>
+    <string name="grade">Grades: %s</string>
+    <string name="description">Description: %s</string>
+    <string name="costs">Costs: %s</string>
+    <string name="requirements">Requirements: %s</string>
+    <string name="meetings">Meetings: %s</string>
+    <string name="events">Events: %s</string>
+</resources>
