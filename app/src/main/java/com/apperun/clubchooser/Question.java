@@ -8,47 +8,43 @@ import java.util.ArrayList;
  */
 
 public class Question {
-    private String question;
-    private ArrayList<String> choices;
-    private int selected;
 
-    public Question(String question){ //creates empty choice array, add with add choice method
-        this(question, new ArrayList<String>(4));
+    private Choice[] choices;
+    private int selected;
+    private int id;
+    private int counter;
+    private static int questionCounter = 0;
+
+    public Question(Choice choice1, Choice choice2, Choice choice3, Choice choice4){
+        this(new Choice[] {choice1, choice2, choice3, choice4});
     }
 
-    public Question(String question, String[] arrayChoices){
-        this.question = question;
-        this.choices = new ArrayList<String>(4);
+    public Question(Choice[] arrayChoices){
         selected = -1;
-        for (int i = 0; i < arrayChoices.length; i++){
-            choices.add(arrayChoices[i]);
+        this.choices = arrayChoices;
+        id = questionCounter;
+        questionCounter++;
+        counter = 0;
+    }
+
+    public void addChoice(Choice choice){
+        choices[counter] = choice;
+        counter++;
+    }
+
+    public void addChoices(Choice[] choices){
+        for (int i = 0; i < choices.length; i++){
+            this.choices[counter] = choices[i];
+            counter++;
         }
     }
 
-    public Question(String question, ArrayList<String> choices){
-        this.question = question;
-        this.choices = choices;
-        selected = -1;
-    }
-
-    public void addChoice(String choice){
-        choices.add(choice);
-    }
-
-    public String getQuestion() {
-        return question;
-    }
-
-    public void setQuestion(String question) {
-        this.question = question;
-    }
-
-    public ArrayList<String> getChoices() {
+    public Choice[] getChoices() {
         return choices;
     }
 
     public void setSelected(int k){
-        if ((k >= 0) && (k < choices.size())){
+        if ((k >= 0) && (k < choices.length)){
             selected = k;
         } else {
             System.out.println("Invalid selection number");
@@ -59,11 +55,32 @@ public class Question {
         return selected;
     }
 
-    public String getAnswer(){
+    public Choice getAnswer(){
         if (selected == -1){
-            return "No answer selected";
+            return null;
         } else {
-            return choices.get(selected);
+            return choices[selected];
         }
     }
+
+    public void setChoices(Choice[] choices) {
+        this.choices = choices;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public static int getQuestionCounter() {
+        return questionCounter;
+    }
+
+    public static void setQuestionCounter(int questionCounter) {
+        Question.questionCounter = questionCounter;
+    }
+
 }
