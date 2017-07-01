@@ -1,10 +1,14 @@
 package com.apperun.clubchooser;
 
+import java.io.Serializable;
+import java.util.ArrayList;
+
 /**
  * Created by Slang on 6/24/2017.
  */
 
-public class Club {
+public class Club implements Serializable{
+
     private String clubName;
     private String clubDescription;
     private String clubSponsor;
@@ -13,7 +17,11 @@ public class Club {
     private String membershipRequirements;
     private String meetings;
     private String events;
-
+    static final long serialVersionUID = 1342895734852654L;
+    private int academics;
+    private int sports;
+    private int arts;
+    private int community;
 
 
     public Club(String name, String description){
@@ -82,5 +90,37 @@ public class Club {
 
     public void setEvents(String events) {
         this.events = events;
+    }
+
+    public int getAcademics() {
+        return academics;
+    }
+
+    public void setAcademics(int academics) {
+        this.academics = academics;
+    }
+
+    public int getSports() {
+        return sports;
+    }
+
+    public void setSports(int sports) {
+        this.sports = sports;
+    }
+
+    public int getArts() {
+        return arts;
+    }
+
+    public void setArts(int arts) {
+        this.arts = arts;
+    }
+
+    public int getCommunity() {
+        return community;
+    }
+
+    public void setCommunity(int community) {
+        this.community = community;
     }
 }
