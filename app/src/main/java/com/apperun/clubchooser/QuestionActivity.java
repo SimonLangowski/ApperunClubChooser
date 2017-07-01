@@ -4,21 +4,20 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.style.QuoteSpan;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.nio.charset.CharacterCodingException;
 import java.util.ArrayList;
 
 public class QuestionActivity extends AppCompatActivity {
 
     TextView question;
-    Button choice1;
-    Button choice2;
-    Button choice3;
-    Button choice4;
-    Button choice5;  //choice 5 may become a go back to last question button
+    Button choice1, choice2,choice3, choice4;
     Button[] buttons;
     ArrayList<Question> questions;
     int currentQuestionNumber;
@@ -33,12 +32,14 @@ public class QuestionActivity extends AppCompatActivity {
         choice2 = (Button) findViewById(R.id.choice2);
         choice3 = (Button) findViewById(R.id.choice3);
         choice4 = (Button) findViewById(R.id.choice4);
-        choice5 = (Button) findViewById(R.id.choice5);
-        buttons = new Button[] {choice1, choice2, choice3, choice4, choice5};
+
+        buttons = new Button[] {choice1, choice2, choice3, choice4};
+
         questions = new ArrayList<Question>();
-        Question testQuestion = new Question("What is your favorite color?", new String[] {"Yellow", "Red", "Green"});
-        testQuestion.addChoice("blue");
-        questions.add(testQuestion);
+        Question[] q = makeQuestions();
+        for (int i = 0; i < q.length; i++){
+            questions.add(q[i]);
+        }
         storage = getPreferences(0);
         if (storage.contains("questionNumber")) {
             currentQuestionNumber = storage.getInt("questionNumber", 0);
@@ -48,7 +49,7 @@ public class QuestionActivity extends AppCompatActivity {
         if (getIntent().getBooleanExtra("restart", false)){
             currentQuestionNumber = 0;
             SharedPreferences.Editor editor = storage.edit();
-            //editor.clear() //removes ALL stored preferences across app
+            editor.clear(); //removes ALL stored preferences across app
             for (int i = 0; i < questions.size(); i++) {
                 String key = "question" + i;
                 if (storage.contains(key)) {
@@ -71,7 +72,7 @@ public class QuestionActivity extends AppCompatActivity {
             editor.commit();
         }
 
-
+        question.setText(R.string.question);
 
         if (currentQuestionNumber < questions.size()) {
             updateQuestionDisplay(questions.get(currentQuestionNumber));
@@ -87,24 +88,24 @@ public class QuestionActivity extends AppCompatActivity {
 
     public void updateQuestionDisplay(Question q){
         final Question q2 = q;
-        question.setText(q.getQuestion());
-        ArrayList<String> choices = q.getChoices();
-        for (int i = 0; i < buttons.length; i++){
-            if (i < choices.size()){
-                Button b = buttons[i];
-                b.setText(choices.get(i));
-                final int i2 = i;
-                b.setOnClickListener(new View.OnClickListener(){
-                    public void onClick(View v){
-                        q2.setSelected(i2);
-                        nextQuestion(q2);
-                    }
-                });
-                b.setVisibility(View.VISIBLE);
-            } else {
-                buttons[i].setVisibility(View.GONE);
+            Choice[] choices = q.getChoices();
+            for (int i = 0; i < buttons.length; i++){
+                if (i < choices.length){
+                    Button b = buttons[i];
+                    b.setText(choices[i].getChoiceName());
+                    final int i2 = i;
+                    b.setOnClickListener(new View.OnClickListener(){
+                        public void onClick(View v){
+                            q2.setSelected(i2);
+                            nextQuestion(q2);
+                        }
+                    });
+                    b.setVisibility(View.VISIBLE);
+                } else {
+                    buttons[i].setVisibility(View.GONE);
+                }
             }
-        }
+
     }
 
     public void nextQuestion(Question currentQuestion){
@@ -124,13 +125,71 @@ public class QuestionActivity extends AppCompatActivity {
     public void calculateClubs(){
         //do something here
 
-        String answer = questions.get(0).getAnswer();
+        String answer = questions.get(0).getAnswer().getChoiceName();
         Toast toast = Toast.makeText(getApplicationContext(), "You answered " + answer, Toast.LENGTH_LONG);
         toast.show();
         //maybe add a results activity
         Intent intent = new Intent(getApplicationContext(), DescriptionActivity.class);
         //use put extra to add data to intent
         startActivity(intent);
+    }
+
+
+    public Question[] makeQuestions(){
+        Choice art = new Choice("Art", 0,0,2,0);
+        Choice reading = new Choice("Reading",1,0,1,0);
+        Choice drama = new Choice("Drama", 0,0,2,0);
+        Choice running = new Choice("Running",0,2,0,0);
+        Choice writing = new Choice("Writing",1,0,1,0);
+        Choice discussingPhilosophy = new Choice("Discussing philosophy",1,0,1,0 );
+        Choice speakingInAForeignLanguage = new Choice("Speaking in a foreign language",0,0,2,0);
+        Choice doingMath = new Choice("Doing math", 1,1,0,0);
+        Choice makingFood = new Choice("Making food",0,0,1,1);
+        Choice goingToAFootballGame = new Choice("Going to a football game",0,1,0,1);
+        Choice eatingFood = new Choice("Eating food",0,0,0,2);
+        Choice workingWithMoney = new Choice("Working with money",1,0,0,1);
+        Choice media = new Choice("Media", 0,0,2,0);
+        Choice debate = new Choice("Debate",1,1,0,0);
+        Choice design = new Choice("Design",2,0,0,0);
+        Choice jeopary = new Choice("Jeopardy",1,1,0,0);
+        Choice trivia = new Choice("Trivia",0,2,0,0);
+        Choice captureTheFlag = new Choice("Capture the flag",0,2,0,0);
+        Choice volunteering = new Choice("Volunteering",0,0,0,2);
+        Choice learning = new Choice("Learning",0,0,0,2);
+        Choice readingScientificTheory = new Choice("Reading scientific theory",2,0,0,0);
+        Choice programming = new Choice("Programming",2,0,0,0);
+        Choice improvisation = new Choice("Improvisation", 0,1,0,1);
+        Choice dancing = new Choice("Dancing",0,1,1,0);
+        Choice mentoring = new Choice("Mentoring",0,0,0,2);
+        Choice medicine = new Choice("Medicine",2,0,0,0);
+        Choice photography = new Choice("Photography",0,0,2,0);
+        Choice leadership = new Choice("Leadership",0,0,0,2);
+        Choice music = new Choice("Music",0,0,2,0);
+        Choice solvingPuzzles = new Choice("Solving puzzles",2,0,0,0);
+        Choice scientificExperiments = new Choice("Scientific experiments",2,0,0,0);
+        Choice competition = new Choice("Competition",0,2,0,0);
+        Choice doingStunts = new Choice("Doing stunts",0,0,2,0);
+        Choice takingRisks = new Choice("Taking Risks",0,2,0,0);
+        Choice practicing = new Choice("Practicing",0,2,0,0);
+        Choice recycling = new Choice("Recycling",0,0,0,2);
+        Choice helpingPeople = new Choice("Helping people",0,0,0,2);
+        Choice teamwork = new Choice("Teamwork",0,2,0,0);
+        Choice publicService = new Choice("Public service",0,0,0,2);
+        Choice conversation = new Choice("Conversation",0,0,0,2);
+
+        Question q1 = new Question(art,running,volunteering,doingMath);
+        Question q2 = new Question(captureTheFlag,programming,recycling,reading);
+        Question q3 = new Question(drama,leadership,jeopary,learning);
+        Question q4 = new Question(writing,debate,speakingInAForeignLanguage,goingToAFootballGame);
+        Question q5 = new Question(photography,medicine,mentoring,competition);
+        Question q6 = new Question(readingScientificTheory,discussingPhilosophy,makingFood,takingRisks);
+        Question q7 = new Question(improvisation,trivia,media,music);
+        Question q8 = new Question(practicing,doingStunts,solvingPuzzles,eatingFood);
+        Question q9 = new Question(publicService,teamwork,design,scientificExperiments);
+        Question q10 = new Question(conversation,dancing,workingWithMoney,helpingPeople);
+
+        Question[] questions = new Question[] {q1,q2,q3,q4,q5,q6,q7,q8,q9,q10};
+        return questions;
     }
 
 }
