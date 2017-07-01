@@ -7,78 +7,94 @@
     tools:context="com.apperun.clubchooser.QuestionActivity">
 
     <TableLayout
-        android:layout_width="368dp"
-        android:layout_height="495dp"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp">
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="142dp">
+
         <TableRow>
+
             <TextView
                 android:id="@+id/question"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="8dp"
                 android:layout_marginBottom="24dp"
-                android:textSize="24sp"
-                android:text="Question" />
+                android:padding="8dp"
+                android:text="What subjects do you like?"
+                android:textSize="24sp" />
+
         </TableRow>
 
         <TableRow>
+
             <Button
                 android:id="@+id/choice1"
-                android:text="Choice1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:layout_weight="1"
                 android:padding="8dp"
-                android:layout_weight="1" />
+                android:text="Choice1"
+                android:textSize="20sp" />
         </TableRow>
 
         <TableRow>
-        <Button
-            android:id="@+id/choice2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:textSize="20sp"
-            android:layout_weight="1"
-            android:text="choice2" />
+
+            <Button
+                android:id="@+id/choice2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="choice2"
+                android:textSize="20sp" />
+
         </TableRow>
 
         <TableRow>
-        <Button
-            android:id="@+id/choice3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:textSize="20sp"
-            android:layout_weight="1"
-            android:text="choice3"
-             />
+
+            <Button
+                android:id="@+id/choice3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Choice3"
+                android:textSize="20sp" />
+
         </TableRow>
 
         <TableRow>
-        <Button
-            android:id="@+id/choice4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:textSize="20sp"
-            android:layout_weight="1"
-            android:text="choice4"
-             />
+
+            <Button
+                android:id="@+id/choice4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="choice4"
+                android:textSize="20sp" />
+
         </TableRow>
 
         <TableRow>
-        <Button
-            android:id="@+id/choice5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:textSize="20sp"
-            android:layout_weight="1"
-            android:text="choice5"
-             />
+
+        </TableRow>
+
+        <TableRow>
+
+        </TableRow>
+
+        <TableRow>
+
+        </TableRow>
+
+        <TableRow></TableRow>
+
+        <TableRow>
+
         </TableRow>
     </TableLayout>
+
 
 </android.support.constraint.ConstraintLayout>
