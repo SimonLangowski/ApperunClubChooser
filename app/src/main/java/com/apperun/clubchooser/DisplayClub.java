@@ -15,6 +15,9 @@ public class DisplayClub {
     private String meetings;
     private String events;
 
+    public DisplayClub (String clubName){
+        this.clubName = clubName;
+    }
 
     public String getClubName() {
         return clubName;
