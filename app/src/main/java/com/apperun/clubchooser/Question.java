@@ -15,6 +15,7 @@ public class Question {
     private int counter;
     private static int questionCounter = 0;
 
+
     public Question(Choice choice1, Choice choice2, Choice choice3, Choice choice4){
         this(new Choice[] {choice1, choice2, choice3, choice4});
     }
