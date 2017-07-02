@@ -11,8 +11,14 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.nio.charset.CharacterCodingException;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class QuestionActivity extends AppCompatActivity {
 
@@ -20,6 +26,7 @@ public class QuestionActivity extends AppCompatActivity {
     Button choice1, choice2,choice3, choice4;
     Button[] buttons;
     ArrayList<Question> questions;
+    ArrayList<Club> clubs;
     int currentQuestionNumber;
     SharedPreferences storage;
 
@@ -37,6 +44,7 @@ public class QuestionActivity extends AppCompatActivity {
 
         questions = new ArrayList<Question>();
         Question[] q = makeQuestions();
+        clubs = makeClubs();
         for (int i = 0; i < q.length; i++){
             questions.add(q[i]);
         }
@@ -81,7 +89,7 @@ public class QuestionActivity extends AppCompatActivity {
             for (int i = 0; i < buttons.length; i++){
                 buttons[i].setVisibility(View.INVISIBLE);
             }
-            //should automatically display last result screen when implemented properly
+            calculateClubs(); //jump to results screen
         }
 
     }
@@ -123,15 +131,77 @@ public class QuestionActivity extends AppCompatActivity {
     }
 
     public void calculateClubs(){
-        //do something here
+        int totalAcademics = 0;
+        int totalArtistic = 0;
+        int totalSports = 0;
+        int totalCommunity = 0;
 
-        String answer = questions.get(0).getAnswer().getChoiceName();
-        Toast toast = Toast.makeText(getApplicationContext(), "You answered " + answer, Toast.LENGTH_LONG);
-        toast.show();
-        //maybe add a results activity
-        Intent intent = new Intent(getApplicationContext(), DescriptionActivity.class);
-        //use put extra to add data to intent
-        startActivity(intent);
+        for (Question q : questions){
+            if (q.getAnswer() == null){
+                continue;
+            }
+            totalAcademics += q.getAnswer().getAcademics();
+            totalArtistic += q.getAnswer().getArts();
+            totalSports += q.getAnswer().getSports();
+            totalCommunity += q.getAnswer().getCommunity();
+        }
+
+        for (Club c : clubs){
+            c.computeClubScore(totalAcademics,totalArtistic,totalSports,totalCommunity);
+        }
+        Collections.sort(clubs);
+        question.setText(clubs.get(0).getClubName());
+        for (int i = 0; i < buttons.length; i++){
+            buttons[i].setText(clubs.get(i + 1).getClubName());
+        }
+    }
+
+    public ArrayList<Club> makeClubs(){
+        InputStream is = getApplicationContext().getResources().openRawResource(R.raw.clublist);
+        InputStreamReader isr = new InputStreamReader(is);
+        BufferedReader br = new BufferedReader(isr);
+        String line;
+        String clubName = "hi";
+        int academics = 0;
+        int artistic = 0;
+        int sports = 0;
+        int community = 0;
+        ArrayList<Club> clubList = new ArrayList<Club>();
+        try {
+            while ((line = br.readLine()) != null) {
+                int counter = 0;
+                int temp = 0;
+                for (int i = 0; i < line.length(); i++){
+                    if (line.charAt(i) == ','){
+                        if (counter == 0) {
+                            clubName = line.substring(0, i);
+                            temp = i;
+                            counter++;
+                        } else if (counter == 1){
+                            academics = Integer.parseInt(line.substring(temp + 1, i));
+                            temp = i;
+                            counter++;
+                        } else if (counter == 2){
+                            artistic = Integer.parseInt(line.substring(temp + 1, i));
+                            temp = i;
+                            counter++;
+                        } else if (counter == 3){
+                            sports = Integer.parseInt(line.substring(temp + 1, i));
+                            temp = i;
+                            counter++;
+                        } else if (counter == 4){
+                            community = Integer.parseInt(line.substring(temp + 1, i));
+                            temp = i;
+                            break;
+                        }
+                    }
+                }
+                clubList.add(new Club(clubName, academics, artistic, sports, community));
+            }
+        } catch (IOException e){
+            System.out.println("Club file not found");
+        }
+        return clubList;
     }
 
 
