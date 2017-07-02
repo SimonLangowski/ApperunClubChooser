@@ -1,0 +1,344 @@
+{Club name},{Academic},{Artistic},{Sports/Competition},{Community},{Sum Checker},{},{Sponsor},{Grades},{Description},{Special events},{meetings},{Requirements},{Costs}
+{Academic Competition Team},{10},{3},{7},{0},{20},{},{John w. Shearin},{9 - 12},"{Not a club, but a competitive team which represents CHS in the White River
+
+Academic League competitions, in the annual MIC Academic Challenge, and in other academic
+
+competitions as opportunities arise.}",{The team competes in ten-or-twelve academic matches with various other area high schools (some at home and some away) from October through March.},{Throughout the season the team practices every Monday after school from 3:15 until 4:00 p.m. in the CHS library media center.},{},{}
+{Academic Super Bowl},{7},{7},{5},{1},{20},{},{Matt Dillon and James Ziegler},{9 - 12},"{Academic Super Bowl is a theme-based, academic competition. Each year the State Organization sets a theme and develops specific study guides in the following academic subject areas: Fine Arts, English, Math, Science, and Social Studies. Squads are formed to study and compete in each area (a sixth squad competes in the interdisciplinary round that covers all fiveareas).}",{There aren't any special events other than our competitions.},"{We will meet 1-2 times per month, after school, until competition season. Each
+
+individual subject area will have a captain, who may also schedule meetings with his fellow team
+
+members to study the material. We have practice competitions in February and March, and the
+
+area competition is in April (the April competition determines who advances to the State). Dates
+
+of the competitions: TBD.}",{},{}
+{Advanced Computer Science},{13},{7},{0},{0},{20},{},{},{9 - 12},{},{},{},{},{}
+{Anime},{4},{12},{0},{4},{20},{},{},{9 - 12},{},{},{},{},{}
+{Art Club},{2},{17},{0},{1},{20},{},{},{9 - 12},{},{},{},{},{}
+{Baking a Difference},{6},{10},{0},{4},{20},{},{},{9 - 12},{},{},{},{},{}
+{Best Buddies},{4},{1},{0},{15},{20},{},{},{9 - 12},{},{},{},{},{}
+{Big Game},{0},{0},{9},{11},{20},{},{},{9 - 12},{},{},{},{},{}
+{Biology Club},{17},{0},{0},{3},{20},{},{},{9 - 12},{},{},{},{},{}
+{Bollywood Club},{0},{10},{7},{3},{20},{},{},{9 - 12},{},{},{},{},{}
+{Chem Club},{8},{4},{0},{8},{20},{},{Ginny Kundrat},{9 - 12},"{Chem Club invites high school students who enjoy learning about ways Chemistry
+
+connects to our world. Chem Club equips students for the American Chemical Society's [ACS]
+
+US National Chemistry Olympiad [USNCO], gives science demonstrations to younger school
+
+students, and participates in various science competitions.}",{},{2nd and 4th Mondays of the month in room B214},{},{}
+{Chess Club},{8},{2},{8},{2},{20},{},{},{9 - 12},{},{},{},{},{}
+{Club Med},{12},{3},{0},{5},{20},{},{},{9 - 12},{},{},{},{},{}
+{Comedy Sportz High School League},{2},{8},{6},{4},{20},{},{Jim Peterson},{10 - 12},"{ComedySportz High School League is an improvisational comedy organization
+
+started in 2000 by sponsor, Mr. Jim Peterson. Teams of 'actletes' compete against other
+
+improvisers from other schools in the High School League. Matches are played both here at CHS
+
+and away at league schools.}","{Home matches are in February, March and April. Away matches start with
+
+exhibition matches in January and last until May.}","{Rehearsals are on Fridays after school from 3:30-5:00p. Occasional training
+
+sessions are on Saturday afternoons.}","{Auditions are held each fall, usually the first Friday in September.
+
+Rehearsals and training sessions are each week until performances start in February.}",{}
+{Computer Building Club},{5},{3},{0},{12},{20},{},{},{9 - 12},{},{},{},{},{}
+{Coquettes},{0},{10},{8},{2},{20},{},{Sarar Wolff},{9-12 (over 20 members)},"{Coquettes is the winter dance team and performs at home girls and boys basketball
+
+games from the months of November through February.}",{},"{Practices are required and are Monday, Tuesday, and Thursday from 3:30-5:30.
+
+Performances at games are also required and will be chosen based on the home athletic schedules.}","{
+Tryouts for the winter dance team are held the week of fall break each year.
+
+Candidates must demonstrate proficiency in jazz, hip-hop, and technical dancing skills including
+
+but not limited to triple turns, turns in second, multiple leaps, proficiency in flexibility, memory
+
+skills, sharpness, energy, performance quality, and facials.}",{Cost of uniform and spirit wear (varies each year)}
+{Debate Team},{11},{3},{6},{0},{20},{},{Nicole Palmer and Eugenie Baum},{9 - 12},"{Carmel Debate Team participates in organized, high school debate. Debate builds
+
+public speaking skills and awareness about real-world topics and issues. It emphasizes critical
+
+thinking and helps research and organizational skills. More information can be found at
+
+https://carmel.instructure.com/enroll/FFR8K4}","{Debate Meets on various Saturdays at other high schools in Indiana throughout the
+
+season (October-February)}",{Tuesdays in C149 September - February},"{Membership deadline is September 30, $35 dues required}",{}
+{DECA},{7},{1},{6},{6},{20},{},"{Chard Reid, Laura Cardamon, Tanya Carson, Rob Holman}",{9 - 12},"{To foster the development of professional social skills, to promote an attitude for
+
+success, and to cultivate critical thinking in the context of private enterprise. For more
+
+information, visit our website at: www.carmeldeca.com}","{District Competition Saturday, January 9 at Westfield High School
+
+State Competition, Feb 28 - Mar 1, Marriott Hotel (Indianapolis)}",{Varies by individual during SRT},{Sign up at www.carmeldeca.com},{Taking a business course is recommended. Membership fees: $15}
+{Design for CHS},{8},{4},{0},{8},{20},{},{},{9 - 12},{},{},{},{},{}
+{Development Team},{10},{5},{3},{2},{20},{},{},{9 - 12},{},{},{},{},{}
+{Economics Club},{15},{0},{5},{0},{20},{},{Michelle Foutz},{9 - 12},{Students participate in the National Economics Challenge Competition},"{The state competition will be Thursday, April 13 or Friday, April 14th. If we
+
+qualify, the National semi-final exam (taken at CHS) will be on April 25th.
+
+If we qualify, the National finals in New York City will be held May 20-22.}","{E231. We meet primarily during SRT. We'll get together a few times before
+
+winter break. But, most of our meetings will occur during second semester. We'll meet more
+
+regularly as we get closer to the state competition.}","{This is for students who have taken an economics course, or for
+
+students who are willing to self-study economics.}",{}
+{Environmental Action Club},{8},{0},{0},{12},{20},{},{},{9 - 12},{},{},{},{},{}
+{FCCLA},{5},{1},{7},{7},{20},{},{Sonva Brown},{10 - 12},"{Family, Career, Community Leaders of America (FCCLA) has developed
+
+another student led chapter which focuses on the culinary arts and hospitality industry. In
+
+this chapter students will learn specific skills needed in the hospitality industry as well as
+
+leadership and management skills which can be applied to any area of work. Students will
+
+have the opportunity to be involved in many school and community events which will
+
+showcase the skills they have learned. Students will also have opportunity to network with
+
+community members in the industry to enhance their learning experiences.}","{Fall Leadership Rally @ Purdue University October 5
+
+State Competition @ Muncie March 9-11}",{SRT Late Start Days (7:30am-8:00am) in the FCS Meeting Room},"{Membership requires an application or invitation. Must have
+
+taken or been enrolled in Intro to Culinary Arts & Hospitality Management. There is a $15
+
+registration fee. Once a member of this chapter you receive dual enrollment in FCCLA
+
+Carmel Chapter as well.}",{}
+{GKOM},{4},{2},{0},{14},{20},{},{Mike Meyer and Leslie Brown},{11 - 12},{},{},{},{},"{
+Each GKOM will pay $5 for their t-shirt. GKOMs are also expected to pitch in for
+
+extra food for their freshmen during connections.}"
+{HOSA},{10},{2},{4},{4},{20},{},{},{9 - 12},{},{},{},{},{}
+{House of Representatives},{2},{5},{1},{12},{20},{},{Sarah Wolff},{9 - 12},"{House is a branch of student government which provides social and community
+
+events for students to participate in and grow as leaders. Members of House are required to earn
+
+points by participating in events, and attending meetings.}","{Tailgate for Life; FT5K, Smoothie Smashdown, Garage sale, Charity Auction
+
+Dinner, Basketball tailgate, Movie Night, Dance Marathon, and more!}",{House meetings are held every late start Wednesday at 10:30 during SRT},"{
+Applications are available during the first 2 weeks of school for students interested
+
+in becoming House representatives.}",{}
+{Intramurals},{0},{0},{15},{5},{20},{},"{Wes Drew, Mike Meyer, Tommy Oliver}",{9 - 12},"{The Carmel High School Intramural program strives to provide facilities, programs,
+
+and development opportunities in the area of recreation, which enhance the health and well-being
+
+of students, faculty, and staff. This program offers a wide variety of quality recreational and
+
+intramural programs which foster personal, educational, ethical, and physical development.
+
+Meetings: Varies with each sport and time of school year.}",{},{},"{Students are required to adhere to the rules of CHS. Students are also required to
+
+complete a parent permission slip.}",{}
+{InvenTeam},{10},{3},{3},{4},{20},{},{},{9 - 12},{},{},{},{},{}
+{Investment Club/FED Challenge},{8},{4},{6},{2},{20},{},{},{9 - 12},{},{},{},{},{}
+{Jewelry Club},{5},{15},{0},{0},{20},{},{},{9 - 12},{},{},{},{},{}
+{Junior States of America (JSA)},{8},{6},{2},{4},{20},{},{},{9 - 12},{},{},{},{},{}
+{Kenya Club},{4},{0},{0},{16},{20},{},{},{9 - 12},{},{},{},{},{}
+{Key Club},{6},{0},{0},{14},{20},{},{Jill Grimes (head) & Katie Kelly},{9 - 12},"{Key Club is a student-led club with a focus on community service. We are affiliated
+
+with Kiwanis International.}",{},"{Every other Wednesday beginning after Labor Day. We meet in the Freshman Cafe
+
+before school during Late Start from 7:40-8:15 and after school 3:20-3:30/4:00 depending on the
+
+service activity scheduled for that day. A calendar will be posted on the website of the meeting
+
+days.}",{},{$15 dues fee required and $10-$15 t-shirt which is optional..}
+{Linguistics Club},{9},{6},{5},{0},{20},{},{},{9 - 12},{},{},{},{},{}
+{Math Club},{11},{2},{7},{0},{20},{},{Linda Jones},{9 - 12},"{The purpose of the CHS Math Club is to stimulate an interest in mathematics and to
+
+challenge students with problems and opportunities beyond those encountered in the classroom.
+
+Students challenge their mathematical skills for quickness and accuracy. Members compete with
+
+other students through events sponsored by Rose-Hulman as well other national competitions such
+
+as AMC.}",{Rose Hulman Mathematics Contest @ Rose Hulman Institute of Technology},{Every Tuesday from 3:15 to 4:00 in Room A314},{},{}
+{Military Club },{6},{0},{4},{10},{20},{},{},{9 - 12},{},{},{},{},{}
+{Mock Trial},{8},{4},{7},{1},{20},{},{Holly Hochstedler},{9 - 12},"{The Carmel High School Mock Trial Team is an academic competition which is a
+
+joint venture between the Hamilton County Bar Association and Carmel High School. Students try
+
+out to earn a role of either an attorney or a witness. They study and prepare to present one and only
+
+one case. Although the rehearsals and selection of roles is similar to a play, there is no script for
+
+the students to follow. There is a packet of evidence, depositions, affidavits, investigation reports,
+
+and witness statements to learn. Students, however, must be prepared to “think on their feet” just
+
+as attorneys and witnesses must do in real life. This is an academic competition in which we play
+
+against other schools. Therefore, students who participate will be representing not only themselves
+
+and their families, but Carmel High School as a whole. As such, school policy requires students to
+
+adhere to a Code of Conduct in their behavior both at school and away from school.}","{Competitions are every Wednesday evening in January and February from
+
+approximately 5 pm to 8 pm at the Hamilton County Judicial Center in Noblesville. One Saturday
+
+competition from 7 am until 5 pm on the last Saturday in February.}","{Practices and tryouts begin in November usually on Wednesdays in Room F102
+
+immediately after school. Competitions begin in January which are on Wednesdays at the Judicial
+
+Center in Noblesville at 5:30 pm. There is an all-day tournament there on Saturday, February 18th.
+
+During competition season, the team usually practices on both Mondays and Tuesday after school.
+
+This year the team is also going to enter the State Mock Trial Competition which is held in
+
+Indianapolis on weekends in February and March.}","{If a student is awarded a speaking role, there is a significant time commitment for
+
+practices and competitions but we also have students who prefer to spend less time but still learn
+
+and have fun. Many of those students earn a speaking role the following year. During the
+
+Wednesday competitions at the Hamilton County Courthouse, either as a participant or as a
+
+spectator, students must dress professionally. The idea is to simulate proper courtroom dress. Male
+
+students must wear a dress shirt and tie, jacket if available. Female students must wear a dress, a
+
+dress skirt, or dress pants with appropriate sweater, blouse, or jacket.}",{$15 dues in addition to meals when away from school.}
+{Model UN},{8},{3},{7},{2},{20},{},{Sandy Gardner},{9 - 12},"{Description: Model UN is an interactive forum for addressing global concerns in a real world
+
+context. Students in this club will train, collaborate, and build relationships with one another along
+
+with attending various conferences throughout the year. These experiences foster global
+
+citizenship and address current world issues related to regional conflicts, peacekeeping, human
+
+rights, women and children, economic and social development, and the environment. We strive to
+
+provide students with a better understanding of the inner working of the UN and to foster skills in
+
+diplomacy and compromise while having lots of fun along the way.}","{Fundraising events off campus; 4 to 5 yearly Conferences (some traveling
+
+overnight)}","{After School Thursdays in E208 (depending on the conference schedule and
+
+simulation trainings this could be weekly or biweekly)
+}","{Attendance at meetings is essential in learning the skills to
+
+participate in the conferences. Students will also need to pay for conference fees which include
+
+delegate fee, hotel and transportation when fundraising needs supplementation.}",{}
+{NHS},{7},{0},{0},{13},{20},{},{Susan Johnson Ashley Pistello Michelle Skidmore},{12},"{The National Honor Society was founded in 1921 by the National Association of
+
+Secondary School Principals. According to its Constitution, the purpose of this organization shall
+
+be to create enthusiasm for scholarship, to stimulate a desire to render service, to promote
+
+leadership, and to develop character in the students of secondary schools. These ideals form not
+
+only the selection criteria for prospective students, but also the principles by which members are
+
+expected to guide their education.}",{Ghost and Goblins 5K run @ Carmel High School late October},{The first Tuesday of each month from 3:15 - 3:45 in Freshman Cafeteria},"{Membership in NHS is a selection process that begins with identifying those
+
+students who have earned a 3.7 GPA for the first five semesters of their high school career. Then
+
+the applications of the qualified students are examined by a 30 member Faculty Council for those
+
+students who best exemplify all four qualities of NHS: scholarship, leadership, service, and
+
+character. To keep their membership active, NHS members must attend monthly meetings,
+
+complete 20 hours of individual volunteer service and 20 hours of group (NHS selected) volunteer
+
+service, and serve as leaders in school and community organizations.}",{}
+{Origami Club},{4},{14},{0},{2},{20},{},{},{9 - 12},{},{},{},{},{}
+{Philosophy Club},{9},{9},{0},{2},{20},{},{},{9 - 12},{},{},{},{},{}
+{Photography Club},{5},{15},{0},{0},{20},{},{},{9 - 12},{},{},{},{},{}
+{Physics Club},{14},{2},{4},{0},{20},{},{},{9 - 12},{},{},{},{},{}
+{Ping Pong Club},{6},{2},{12},{0},{20},{},{},{9 - 12},{},{},{},{},{}
+{Planetarium Club},{15},{5},{0},{0},{20},{},{},{9 - 12},{},{},{},{},{}
+{Project Sunshine},{2},{3},{0},{15},{20},{},{},{9 - 12},{},{},{},{},{}
+{Science Bowl},{13},{0},{7},{0},{20},{},{Ginny Kundrat},{9 - 12},"{The U.S. Department of Energy's National Science Bowl is an academic competition
+
+that tests students' knowledge in all areas of science and in math. Students are quizzed in a fast-
+paced, question-and-answer format similar to Jeopardy. Competing teams are comprised of four
+
+students and one alternate. Teams are formed in the fall.}","{We may host an invitational in January. The Indiana regionals will be early in
+
+March. The winner gets an all-expense trip, the end of April, to the national competition in
+
+Washington D.C.}",{Thursdays after school in B214},{},{}
+{Science for Caring},{8},{3},{0},{9},{20},{},{},{9 - 12},{},{},{},{},{}
+{Science Olympiad},{9},{2},{6},{3},{20},{},{Cynthia Henry and Fran Rushing},{9 - 12},"{Science Olympiad is a team-based competition where teams of 15 students from a
+
+school work together on 23 different science events against teams from
+
+other schools. The events cover many
+
+different science disciplines, some based on study and books, others based on
+
+engineering and building. Practice occurs throughout the year. Competitions last all day and end
+
+with an Olympic-style awards ceremony, complete with medals and trophies. A team can qualify
+
+at their regional tournament for the state competition. At the state competition, teams compete for
+
+a chance to go to the national competition. Students
+
+learn hard work, teamwork, fun and laughter, and a lot of science.}","{Competitions at:
+
+Whiting HS 
+
+Northridge HS 
+
+Wright State University 
+
+Butler University 
+
+Bloomington University }","{Wednesdays 3:15-5:00 in B223. During competition season we also meet
+
+Tuesdays and Thursdays after school and many Saturdays from 9 - 2.}",{},{Dues are $30/year}
+{Share the Music Club},{2},{10},{0},{8},{20},{},{},{9 - 12},{},{},{},{},{}
+{Speech Team},{9},{6},{5},{0},{20},{},{Sponsor(s): Jacleen Joiner},{9 - 12},"{Speech Team allows students to develop public speaking skills with a focus on
+
+delivery, style and performing for an audience. Performance categories range from Original
+
+Oratory to Dramatic Interpretation. Students interested in public speaking and/or drama are
+
+encouraged to participate.}",{Competitions are usually held on Saturdays from 7am-5pm.},{See Jacleen Joiner in E149 for details. Or contact her via email at jjoiner@ccs.k12.in.us},"{It is requested that students have one parent/guardian volunteer to judge 1
+
+competition per season.}",{Costs/Dues: Optional team sweatshirts.}
+{STEM Club},{8},{10},{2},{0},{20},{},{},{9 - 12},{},{},{},{},{}
+{Studio C141},{4},{12},{4},{0},{20},{},{},{9 - 12},{},{},{},{},{}
+{TechHounds},{9},{2},{7},{2},{20},{},{Zach Bonewit and Laura Erli},{9 - 12},"{The TechHOUNDS are a part of an international organization called FIRST (For the
+
+Inspiration and Recognition of Science and Technology) that partners high schools with
+
+corporations in creating a robot for regional and international competition. Each year, various
+
+colleges and universities award more than 8 million dollars in scholarships to senior members of
+
+the FIRST teams. Students work side by side with engineers from Allison, Rolls-Royce,
+
+Technicolor and many others. Many opportunities in engineering, mechanics, programming,
+
+animation, marketing, graphic design, and fundraising exist. This club requires a heavy time
+
+commitment and is not intended for the casual attendee}","{Our special events are the build season and competitions throughout Indiana,
+
+across the Midwest and the St. Louis championships. Competitions take place Friday through
+
+Saturday in March and April. The TechHounds travel to many local competitions that are easily
+
+accessible.}","{Once a week during the first semester. Every night plus some optional weekends during
+
+build season (6 weeks in Jan and Feb) in the Engineering and Technology area.}",{Application process required.},"{$150 for team membership and participation. Possible $300-$700 required for
+
+optional competition travels. Opportunity for sponsorships provided.}"
+{TEDx},{7},{9},{0},{4},{20},{},{},{9 - 12},{},{},{},{},{}
+{Typography & Design Club},{6},{14},{0},{0},{20},{},{},{9 - 12},{},{},{},{},{}
+{Ultimate Challenge Club},{4},{3},{9},{4},{20},{},{},{9 - 12},{},{},{},{},{}
+{UNICEF Club},{2},{2},{3},{13},{20},{},{},{9 - 12},{},{},{},{},{}
+{United Sound},{0},{8},{0},{12},{20},{},{},{9 - 12},{},{},{},{},{}
+{Venture Crew},{2},{4},{10},{4},{20},{},{},{9 - 12},{},{},{},{},{}
+{Wild Bunch},{0},{2},{9},{9},{20},{},{},{9 - 12},{},{},{},{},{}
+{World Food Prize},{9},{0},{4},{7},{20},{},{},{9 - 12},{},{},{},{},{}
+{Yoga Club},{2},{7},{11},{0},{20},{},{},{9 - 12},{},{},{},{},{}
+{Young Entrepreneurs},{10},{6},{4},{0},{20},{},{},{9 - 12},{},{},{},{},{}
