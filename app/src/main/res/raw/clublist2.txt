@@ -176,7 +176,7 @@ Carmel Chapter as well.}",{}
 Each GKOM will pay $5 for their t-shirt. GKOMs are also expected to pitch in for
 
 extra food for their freshmen during connections.}"
-{HOSA},{10},{2},{4},{4},{20},{},{},{9 - 12},{Health Occupations Students of America},{State Leadership Conference, International Conference},{},{},{}
+{HOSA},{10},{2},{4},{4},{20},{},{Jen Marlow},{9 - 12},{Health Occupations Students of America},{State Leadership Conference, International Conference},{},{},{}
 {House of Representatives},{2},{5},{1},{12},{20},{},{Sarah Wolff},{9 - 12},"{House is a branch of student government which provides social and community
 
 events for students to participate in and grow as leaders. Members of House are required to earn
