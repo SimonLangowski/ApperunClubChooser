@@ -19,6 +19,8 @@ import java.io.InputStreamReader;
 import java.nio.charset.CharacterCodingException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.logging.Handler;
 
 public class QuestionActivity extends AppCompatActivity {
 
@@ -43,11 +45,14 @@ public class QuestionActivity extends AppCompatActivity {
         buttons = new Button[] {choice1, choice2, choice3, choice4};
 
         questions = new ArrayList<Question>();
-        Question[] q = makeQuestions();
-        clubs = makeClubs();
+        /*Question[] q = makeQuestions();
+
         for (int i = 0; i < q.length; i++){
             questions.add(q[i]);
         }
+        */
+        questions = makeQuestions2();
+
         storage = getPreferences(0);
         if (storage.contains("questionNumber")) {
             currentQuestionNumber = storage.getInt("questionNumber", 0);
@@ -100,12 +105,21 @@ public class QuestionActivity extends AppCompatActivity {
             for (int i = 0; i < buttons.length; i++){
                 if (i < choices.length){
                     Button b = buttons[i];
-                    b.setText(choices[i].getChoiceName());
+                    Choice c = choices[i];
+                    if (c == null){
+                        b.setText("Missing answer choice");
+                    } else {
+                        b.setText(choices[i].getChoiceName());
+                    }
                     final int i2 = i;
                     b.setOnClickListener(new View.OnClickListener(){
                         public void onClick(View v){
-                            q2.setSelected(i2);
-                            nextQuestion(q2);
+                            v.postDelayed(new Runnable(){
+                                public void run(){
+                                    q2.setSelected(i2);
+                                    nextQuestion(q2);
+                                }
+                            },500); //delay to let button animation finish
                         }
                     });
                     b.setVisibility(View.VISIBLE);
@@ -145,28 +159,26 @@ public class QuestionActivity extends AppCompatActivity {
             totalSports += q.getAnswer().getSports();
             totalCommunity += q.getAnswer().getCommunity();
         }
-
-        for (Club c : clubs){
-            c.computeClubScore(totalAcademics,totalArtistic,totalSports,totalCommunity);
-        }
-        Collections.sort(clubs);
-        question.setText(clubs.get(0).getClubName());
-        for (int i = 0; i < buttons.length; i++){
-            buttons[i].setText(clubs.get(i + 1).getClubName());
-        }
+        Intent intent = new Intent(getApplicationContext(), ResultsAcitivty.class);
+        intent.putExtra("totalAcademics", totalAcademics);
+        intent.putExtra("totalArtistic", totalArtistic);
+        intent.putExtra("totalSports", totalSports);
+        intent.putExtra("totalCommunity", totalCommunity);
+        startActivity(intent);
     }
 
-    public ArrayList<Club> makeClubs(){
-        InputStream is = getApplicationContext().getResources().openRawResource(R.raw.clublist);
+
+    public ArrayList<Question> makeQuestions2(){
+        InputStream is = getApplicationContext().getResources().openRawResource(R.raw.answerchoices);
         InputStreamReader isr = new InputStreamReader(is);
         BufferedReader br = new BufferedReader(isr);
         String line;
-        String clubName = "hi";
+        String choiceName = "hi";
         int academics = 0;
         int artistic = 0;
         int sports = 0;
         int community = 0;
-        ArrayList<Club> clubList = new ArrayList<Club>();
+        HashMap<String, Choice> choiceMap = new HashMap<>();
         try {
             while ((line = br.readLine()) != null) {
                 int counter = 0;
@@ -174,15 +186,14 @@ public class QuestionActivity extends AppCompatActivity {
                 for (int i = 0; i < line.length(); i++){
                     if (line.charAt(i) == ','){
                         if (counter == 0) {
-                            clubName = line.substring(0, i);
+                            choiceName = line.substring(0, i);
                             temp = i;
                             counter++;
-                        } else if (counter == 1){
-                            academics = Integer.parseInt(line.substring(temp + 1, i));
+                        } else if (counter == 1){ //blank space
                             temp = i;
                             counter++;
                         } else if (counter == 2){
-                            artistic = Integer.parseInt(line.substring(temp + 1, i));
+                            academics = Integer.parseInt(line.substring(temp + 1, i));
                             temp = i;
                             counter++;
                         } else if (counter == 3){
@@ -190,20 +201,62 @@ public class QuestionActivity extends AppCompatActivity {
                             temp = i;
                             counter++;
                         } else if (counter == 4){
+                            artistic = Integer.parseInt(line.substring(temp + 1, i));
+                            temp = i;
+                            counter++;
+                        } else if (counter == 5){
                             community = Integer.parseInt(line.substring(temp + 1, i));
                             temp = i;
-                            break;
+                            break; //go to next line
                         }
                     }
                 }
-                clubList.add(new Club(clubName, academics, artistic, sports, community));
+                choiceMap.put(choiceName, new Choice(choiceName, academics, artistic, sports, community));
             }
+            br.close();
         } catch (IOException e){
-            System.out.println("Club file not found");
+            System.out.println("Answer choice file not found");
         }
-        return clubList;
+        is = getApplicationContext().getResources().openRawResource(R.raw.questions);
+        isr = new InputStreamReader(is);
+        br = new BufferedReader(isr);
+        line = "hi";
+        String choice1 = "";
+        String choice2 = "";
+        String choice3 = "";
+        String choice4 = "";
+        ArrayList<Question> questionList = new ArrayList<Question>();
+        try {
+            while ((line = br.readLine()) != null) {
+                int counter = 0;
+                int temp = 0;
+                for (int i = 0; i < line.length(); i++){
+                    if (line.charAt(i) == ','){
+                        if (counter == 0) {
+                            choice1 = line.substring(0, i);
+                            temp = i;
+                            counter++;
+                        } else if (counter == 1){
+                            choice2 = line.substring(temp + 1, i);
+                            temp = i;
+                            counter++;
+                        } else if (counter == 2){
+                            choice3 = line.substring(temp + 1, i);
+                            temp = i;
+                            counter++;
+                            choice4 = line.substring(temp + 1);
+                            break; //go to next line
+                        }
+                    }
+                }
+                questionList.add(new Question(choiceMap.get(choice1), choiceMap.get(choice2), choiceMap.get(choice3), choiceMap.get(choice4)));
+            }
+            br.close();
+        } catch (IOException e){
+            System.out.println("Question file not found");
+        }
+        return questionList;
     }
-
 
     public Question[] makeQuestions(){
         Choice art = new Choice("Art", 0,0,2,0);
