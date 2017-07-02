@@ -1,0 +1,64 @@
+Academic Competition Team,10,3,7,0,20
+Academic Super Bowl,7,7,5,1,20
+Advanced Computer Science,13,7,0,0,20
+Anime,4,12,0,4,20
+Art Club,2,17,0,1,20
+Baking a Difference,6,10,0,4,20
+Best Buddies,4,1,0,15,20
+Big Game,0,0,9,11,20
+Biology Club,17,0,0,3,20
+Bollywood Club,0,10,7,3,20
+Chem Club,8,4,0,8,20
+Chess Club,8,2,8,2,20
+Club Med,12,3,0,5,20
+Comedy Sportz High School League,2,8,6,4,20
+Computer Building Club,5,3,0,12,20
+Coquettes,0,10,8,2,20
+Debate Team,11,3,6,0,20
+DECA,7,1,6,6,20
+Design for CHS,8,4,0,8,20
+Development Team,10,5,3,2,20
+Economics Club,15,0,5,0,20
+Environmental Action Club,8,0,0,12,20
+FCCLA,5,1,7,7,20
+GKOM,4,2,0,14,20
+HOSA,10,2,4,4,20
+House of Representatives,2,5,1,12,20
+Intramurals,0,0,15,5,20
+InvenTeam,10,3,3,4,20
+Investment Club/FED Challenge,8,4,6,2,20
+Jewelry Club,5,15,0,0,20
+Junior States of America (JSA),8,6,2,4,20
+Kenya Club,4,0,0,16,20
+Key Club,6,0,0,14,20
+Linguistics Club,9,6,5,0,20
+Math Club,11,2,7,0,20
+Military Club ,6,0,4,10,20
+Mock Trial,8,4,7,1,20
+Model UN,8,3,7,2,20
+NHS,7,0,0,13,20
+Origami Club,4,14,0,2,20
+Philosophy Club,9,9,0,2,20
+Photography Club,5,15,0,0,20
+Physics Club,14,2,4,0,20
+Ping Pong Club,6,2,12,0,20
+Planetarium Club,15,5,0,0,20
+Project Sunshine,2,3,0,15,20
+Science Bowl,13,0,7,0,20
+Science for Caring,8,3,0,9,20
+Science Olympiad,9,2,6,3,20
+Share the Music Club,2,10,0,8,20
+Speech Team,9,6,5,0,20
+STEM Club,8,10,2,0,20
+Studio C141,4,12,4,0,20
+TechHounds,9,2,7,2,20
+TEDx,7,9,0,4,20
+Typography & Design Club,6,14,0,0,20
+Ultimate Challenge Club,4,3,9,4,20
+UNICEF Club,2,2,3,13,20
+United Sound,0,8,0,12,20
+Venture Crew,2,4,10,4,20
+Wild Bunch,0,2,9,9,20
+World Food Prize,9,0,4,7,20
+Yoga Club,2,7,11,0,20
+Young Entrepreneurs,10,6,4,0,20
