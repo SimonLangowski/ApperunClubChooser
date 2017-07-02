@@ -13,14 +13,60 @@ members to study the material. We have practice competitions in February and Mar
 area competition is in April (the April competition determines who advances to the State). Dates
 
 of the competitions: TBD.}",{},{}
-{Advanced Computer Science},{13},{7},{0},{0},{20},{},{},{9 - 12},{},{},{},{},{}
-{Anime},{4},{12},{0},{4},{20},{},{},{9 - 12},{},{},{},{},{}
-{Art Club},{2},{17},{0},{1},{20},{},{},{9 - 12},{},{},{},{},{}
-{Baking a Difference},{6},{10},{0},{4},{20},{},{},{9 - 12},{},{},{},{},{}
-{Best Buddies},{4},{1},{0},{15},{20},{},{},{9 - 12},{},{},{},{},{}
-{Big Game},{0},{0},{9},{11},{20},{},{},{9 - 12},{},{},{},{},{}
-{Biology Club},{17},{0},{0},{3},{20},{},{},{9 - 12},{},{},{},{},{}
-{Bollywood Club},{0},{10},{7},{3},{20},{},{},{9 - 12},{},{},{},{},{}
+{Advanced Computer Science},{13},{7},{0},{0},{20},{},{Dom David},{9 - 12},"{A club dedicated to advanced computer programming languages and tools. This club
+
+is meant to help students become more prepared for post-secondary CS education/career.
+
+Special events​: May 2nd, 2017 - Student Poster Sessions for Students, Parents and Supporters.}",{},{​Every two weeks on Tuesdays 3:20 to 4:00-4:15 PM.},{},{}
+{Anime},{4},{12},{0},{4},{20},{},{Rita Winters},{9 - 12},"{This club views anime, the newest phenomenon in America. Also, we'll watch old
+
+classics and acquaint members with new series.}",{},{Every other Monday in the Freshman Center LGI Room from 3:30 to 5:00.},{},{$5 for snacks.}
+{Art Club},{2},{17},{0},{1},{20},{},"{Jennifer Bubp, Linda Lutes, Drew Murray, and Janine Shafer}",{9 - 12},"{Art Club participates in community service projects, art shows, and silent art auctions
+
+throughout the school year. Members are encouraged to use their artistic abilities and talents to
+
+serve others.}","{events​: Carmel International Arts Festival
+
+CHS Fall Art Show
+
+Riley Children's Hospital Silent Art Auction
+
+Ghost n' Goblins 5K Face Painting
+
+Holiday Window Painting at Carmel City Center}","{Thursdays, after school, from 3:15- 4:00 p.m. in room H115}",{},{​$10 membership dues}
+{Baking a Difference},{6},{10},{0},{4},{20},{},{Jillian Schmidt and Brenda Lester},{9 - 12},"{Students gather after school to bake and deliver the proceeds to organizations with
+
+people in need to give back to the community.}",{},"{Meetings vary based on the needs of organizations we donate to and kitchen
+
+availability.}",{},"{$20 dues are required before any
+
+participation in baking is allowed.}"
+{Best Buddies},{4},{1},{0},{15},{20},{},{​Dana Lawrence​ ​and ​Kay Vazquez},{9 - 12},"{​It is a club to create opportunities for one-to-one friendships with people that have
+
+intellectual and developmental disabilities.}",{},{Meeting vary monthly. Most are during SRT but we also have monthly outings.},"{​Time is required to spend with your Buddy; no financial
+
+requirements.}",{}
+{Big Game},{0},{0},{9},{11},{20},{},{​Brad Pearson},{9 - 12},"{Spirit club of Carmel High School that helps lead the student body in school spirit in
+
+a manner that represents the school in a positive way and always shows sportsmanship to the
+
+opposing competition.}","{Making Strides Walk for Breast Cancer Awareness- October, downtown
+
+Indianapolis (voluntary).
+
+Outside of sporting events, we ask our members to help get involved in the community by helping
+
+give back to those in need.}","{Selected leaders will meet with sponsor during SRT to discuss upcoming events,
+
+themes, and other ideas to help create a positive experience for those events. Information will then
+
+be spread through social media to the rest of the club members and student body.}","{Students who wish to be involved in the club must sign club contract
+
+and abide by its rules.}",{}
+{Biology Club},{17},{0},{0},{3},{20},{},{Dr. Marble},{9 - 12},{Informal club to help students study for the Biology Olympiad test.},{In February the Open Exam is administered.},{Gold Mondays from 3:15-4:30pm E132},{},{}
+{Bollywood Club},{0},{10},{7},{3},{20},{},{Mr. Todd Hawkins},{9 - 12},"{To promote awareness about Bollywood cultural aspects like Bollywood dance,
+
+music, and Indian food.}",{},{1st Tuesday of every month from 3:15-4:15 PM in room A210 after school},{},{}
 {Chem Club},{8},{4},{0},{8},{20},{},{Ginny Kundrat},{9 - 12},"{Chem Club invites high school students who enjoy learning about ways Chemistry
 
 connects to our world. Chem Club equips students for the American Chemical Society's [ACS]
@@ -28,8 +74,12 @@ connects to our world. Chem Club equips students for the American Chemical Socie
 US National Chemistry Olympiad [USNCO], gives science demonstrations to younger school
 
 students, and participates in various science competitions.}",{},{2nd and 4th Mondays of the month in room B214},{},{}
-{Chess Club},{8},{2},{8},{2},{20},{},{},{9 - 12},{},{},{},{},{}
-{Club Med},{12},{3},{0},{5},{20},{},{},{9 - 12},{},{},{},{},{}
+{Chess Club},{8},{2},{8},{2},{20},{},{Rob Holman},{9 - 12},{To play chess & also instruct students how to improve their skills.},{},{Every Monday after school from 3:15 to 4:30 in Room F103},{},{}
+{Club Med},{12},{3},{0},{5},{20},{},{Dr Sarah Gillim},{9 - 12},"{Club for students interested in exploring health professions including but not limited
+
+to medicine.}",{},"{Every other Monday, room B207, right after school}",{},"{On occasion we may collect $5 dues to pay for
+
+activities}"
 {Comedy Sportz High School League},{2},{8},{6},{4},{20},{},{Jim Peterson},{10 - 12},"{ComedySportz High School League is an improvisational comedy organization
 
 started in 2000 by sponsor, Mr. Jim Peterson. Teams of 'actletes' compete against other
@@ -43,7 +93,9 @@ exhibition matches in January and last until May.}","{Rehearsals are on Fridays 
 sessions are on Saturday afternoons.}","{Auditions are held each fall, usually the first Friday in September.
 
 Rehearsals and training sessions are each week until performances start in February.}",{}
-{Computer Building Club},{5},{3},{0},{12},{20},{},{},{9 - 12},{},{},{},{},{}
+{Computer Building Club},{5},{3},{0},{12},{20},{},"{Margaret Winans, Domingo David}",{9 - 12},"{To repair and repurpose computers for Net Literacy, a non-profit organization that
+
+donates computers to schools, libraries, churches, etc.}",{},"{Every Monday after school 3:15-4:00, Room F104 in the Business Department}",{},{}
 {Coquettes},{0},{10},{8},{2},{20},{},{Sarar Wolff},{9-12 (over 20 members)},"{Coquettes is the winter dance team and performs at home girls and boys basketball
 
 games from the months of November through February.}",{},"{Practices are required and are Monday, Tuesday, and Thursday from 3:30-5:30.
@@ -72,8 +124,13 @@ success, and to cultivate critical thinking in the context of private enterprise
 information, visit our website at: www.carmeldeca.com}","{District Competition Saturday, January 9 at Westfield High School
 
 State Competition, Feb 28 - Mar 1, Marriott Hotel (Indianapolis)}",{Varies by individual during SRT},{Sign up at www.carmeldeca.com},{Taking a business course is recommended. Membership fees: $15}
-{Design for CHS},{8},{4},{0},{8},{20},{},{},{9 - 12},{},{},{},{},{}
-{Development Team},{10},{5},{3},{2},{20},{},{},{9 - 12},{},{},{},{},{}
+{Design for CHS},{8},{4},{0},{8},{20},{},{Laura Moore},{9 - 12},"{Design for CHS inspires and empowers students to innovate and implement solutions to global challenges using ingenuity, creativity, and collaboration}",{To be announced at a later date},{The second and fourth Tuesday of each month from 3:15 to 4:00 at CHS in room E137},{},{}
+{Development Team},{10},{5},{3},{2},{20},{},{Dom David},{9 - 12},"{CHS Development Team is a club where we use computer science to solve real
+world problems and help the community. We also participate in various programming
+competitions (such as ACSL / Google Code Jam / Imagine Cup / USACO). Finally, we strive to
+learn more about coding at every single meeting (whether it’s a piece of syntax or a new
+language). The club has something to offer to anyone interested in coding from someone
+completely new to programming to a timed veteran.}",{Coding Competitions throughout the school year},{Tuesdays After-school in F114.},{},{$10 Registration fee for competitions}
 {Economics Club},{15},{0},{5},{0},{20},{},{Michelle Foutz},{9 - 12},{Students participate in the National Economics Challenge Competition},"{The state competition will be Thursday, April 13 or Friday, April 14th. If we
 
 qualify, the National semi-final exam (taken at CHS) will be on April 25th.
@@ -85,7 +142,15 @@ winter break. But, most of our meetings will occur during second semester. We'll
 regularly as we get closer to the state competition.}","{This is for students who have taken an economics course, or for
 
 students who are willing to self-study economics.}",{}
-{Environmental Action Club},{8},{0},{0},{12},{20},{},{},{9 - 12},{},{},{},{},{}
+{Environmental Action Club},{8},{0},{0},{12},{20},{},{Kara House},{9 - 12},"{The Environmental Action Club is committed to sustainability issues on campus, in
+
+the community, nationally, and globally. Projects include recycling at Carmel High School,
+
+community volunteer opportunities, educational projects for youth, and a student-choice individual
+
+or small group environmental project. The club works with the CCS Green Team to help CHS
+
+adopt green practices.}",{Volunteer and education activities throughout the year},{Second Monday each month from 3:15 - 4:00 in B204},{},{}
 {FCCLA},{5},{1},{7},{7},{20},{},{Sonva Brown},{10 - 12},"{Family, Career, Community Leaders of America (FCCLA) has developed
 
 another student led chapter which focuses on the culinary arts and hospitality industry. In
@@ -111,7 +176,7 @@ Carmel Chapter as well.}",{}
 Each GKOM will pay $5 for their t-shirt. GKOMs are also expected to pitch in for
 
 extra food for their freshmen during connections.}"
-{HOSA},{10},{2},{4},{4},{20},{},{},{9 - 12},{},{},{},{},{}
+{HOSA},{10},{2},{4},{4},{20},{},{},{9 - 12},{Health Occupations Students of America},{State Leadership Conference, International Conference},{},{},{}
 {House of Representatives},{2},{5},{1},{12},{20},{},{Sarah Wolff},{9 - 12},"{House is a branch of student government which provides social and community
 
 events for students to participate in and grow as leaders. Members of House are required to earn
@@ -133,11 +198,25 @@ intramural programs which foster personal, educational, ethical, and physical de
 Meetings: Varies with each sport and time of school year.}",{},{},"{Students are required to adhere to the rules of CHS. Students are also required to
 
 complete a parent permission slip.}",{}
-{InvenTeam},{10},{3},{3},{4},{20},{},{},{9 - 12},{},{},{},{},{}
-{Investment Club/FED Challenge},{8},{4},{6},{2},{20},{},{},{9 - 12},{},{},{},{},{}
-{Jewelry Club},{5},{15},{0},{0},{20},{},{},{9 - 12},{},{},{},{},{}
-{Junior States of America (JSA)},{8},{6},{2},{4},{20},{},{},{9 - 12},{},{},{},{},{}
-{Kenya Club},{4},{0},{0},{16},{20},{},{},{9 - 12},{},{},{},{},{}
+{InvenTeam},{10},{3},{3},{4},{20},{},{Jacob Fitzgerald},{9 - 12},"{A club that focuses on building a Detector of seizures and accompanying medicine delivery method. The club received a 10,000 dollar grant from the Lemelson-MIT Grant Fund to build their invention and travel to Boston in June 2017 to present the device at Eurekafest}",{We will go to Eurekafest at MIT and Purdue University},{Every Monday and Tuesday after school in Room H313},{},{}
+{Investment Club/FED Challenge},{8},{4},{6},{2},{20},{},{Paul Clayton},{9 - 12},{Play the Stock Market Simulation and prepare for the Fed Challenge competition},{Fed Challenge Competition in April (date not yet determined)},"{2nd and 4th Tuesday of the month, 3:20, F103}","{​If you want to be in the investment club, you have to join DECA}",{}
+{Jewelry Club},{5},{15},{0},{0},{20},{},{Jen Riley-Davis},{9 - 12},"{Give students a better understanding of jewelry making and to allow students studio
+
+time to work. Also, we will make items throughout the year to help raise money for charity. Semester 1 only.}",{},"{Every other Tuesday, starting September 15, in Room C128, from 3:20-4:00.}",{},"{Students will have to pay for supplies/materials used; this will mainly apply to cost of
+
+metal and sawblades.}"
+{Junior States of America (JSA)},{8},{6},{2},{4},{20},{},{Allison Hargrove},{9 - 12},"{In this club, we will discuss politics and current events.}",{},{We will meet each Thursday E238},{},{}
+{Kenya Club},{4},{0},{0},{16},{20},{},{Kathy Hallett},{9 - 12},"{Kenya Club raises money for the Umoja Project of the Global Interfaith Partnership
+
+to send students who have lost one or both parents to HIV/AIDS to secondary school in Kenya.
+
+We have fundraising activities throughout the year including participation in the Kenya Carnival in
+
+early spring with many other schools throughout Indianapolis. We are just kids helping kids across
+
+the world!}",{Kenya Carnival at Second Presbyterian Church in Indianapolis in February},"{Once a month after school in H313. Contact Mrs. Hallett to receive notifications.
+
+khallett@ccs.k12.in.us}",{},{}
 {Key Club},{6},{0},{0},{14},{20},{},{Jill Grimes (head) & Katie Kelly},{9 - 12},"{Key Club is a student-led club with a focus on community service. We are affiliated
 
 with Kiwanis International.}",{},"{Every other Wednesday beginning after Labor Day. We meet in the Freshman Cafe
@@ -147,7 +226,13 @@ before school during Late Start from 7:40-8:15 and after school 3:20-3:30/4:00 d
 service activity scheduled for that day. A calendar will be posted on the website of the meeting
 
 days.}",{},{$15 dues fee required and $10-$15 t-shirt which is optional..}
-{Linguistics Club},{9},{6},{5},{0},{20},{},{},{9 - 12},{},{},{},{},{}
+{Linguistics Club},{9},{6},{5},{0},{20},{},{Jennifer Marlow},{9 - 12},"{Linguistics Club prepares students for the North American Computational
+
+Linguistics Olympiad contest in which high-school students solve linguistic puzzles. In solving
+
+these puzzles, students learn about the diversity and consistency of language, while exercising
+
+logic skills. No prior knowledge of linguistics or second languages is necessary.}",{},{ Wednesdays from 3:15-4:00 in D204},{},{}
 {Math Club},{11},{2},{7},{0},{20},{},{Linda Jones},{9 - 12},"{The purpose of the CHS Math Club is to stimulate an interest in mathematics and to
 
 challenge students with problems and opportunities beyond those encountered in the classroom.
@@ -157,7 +242,19 @@ Students challenge their mathematical skills for quickness and accuracy. Members
 other students through events sponsored by Rose-Hulman as well other national competitions such
 
 as AMC.}",{Rose Hulman Mathematics Contest @ Rose Hulman Institute of Technology},{Every Tuesday from 3:15 to 4:00 in Room A314},{},{}
-{Military Club },{6},{0},{4},{10},{20},{},{},{9 - 12},{},{},{},{},{}
+{Military Club },{6},{0},{4},{10},{20},{},{Serina Mergulhao},{9 - 12},"{The (CHSMC) Military Club informs students of the important role of our Military,
+
+Police, and Government and inspires them to take action in their communities, while giving them
+
+the initiative and experience to rise as Leaders.
+
+""MOTIVATING YOUNG PEOPLE TO BE BETTER CITIZENS""}","{Volunteer @ Carmel Public Safety Day in September CHS Events such as
+
+Homecoming, Veteran's Day, Vietnam Day, Guest Speakers, and Recruiter-led Trainings.
+
+Additional Events TBA.}",{Every Thursday up to 1 hour from 3:15-4:15 in the Community Room.},"{Complete Cadet and Guardian Signed Application including Waivers and Code of
+
+Conduct. At least once a month attendance to either club or event required.}",{T-shirt Fee $15}
 {Mock Trial},{8},{4},{7},{1},{20},{},{Holly Hochstedler},{9 - 12},"{The Carmel High School Mock Trial Team is an academic competition which is a
 
 joint venture between the Hamilton County Bar Association and Carmel High School. Students try
@@ -248,13 +345,35 @@ character. To keep their membership active, NHS members must attend monthly meet
 complete 20 hours of individual volunteer service and 20 hours of group (NHS selected) volunteer
 
 service, and serve as leaders in school and community organizations.}",{}
-{Origami Club},{4},{14},{0},{2},{20},{},{},{9 - 12},{},{},{},{},{}
-{Philosophy Club},{9},{9},{0},{2},{20},{},{},{9 - 12},{},{},{},{},{}
-{Photography Club},{5},{15},{0},{0},{20},{},{},{9 - 12},{},{},{},{},{}
-{Physics Club},{14},{2},{4},{0},{20},{},{},{9 - 12},{},{},{},{},{}
-{Ping Pong Club},{6},{2},{12},{0},{20},{},{},{9 - 12},{},{},{},{},{}
-{Planetarium Club},{15},{5},{0},{0},{20},{},{},{9 - 12},{},{},{},{},{}
-{Project Sunshine},{2},{3},{0},{15},{20},{},{},{9 - 12},{},{},{},{},{}
+{Origami Club},{4},{14},{0},{2},{20},{},{Terri Ramos},{9 - 12},"{Origami Club will practice all types of folding techniques and pay particular
+
+attention to the names and styles of origami and their relationship to mathematics.}",{},{1st and 3rd Tuesdays of the month in the CHS Media Center 3-4 p.m.},{},{}
+{Philosophy Club},{9},{9},{0},{2},{20},{},{Peter Beck},{9 - 12},"{The purpose of this club is to cultivate thought among students, and to challenge
+
+them to be open to other ways of thinking. It’s not just about stating opinions and then defending
+
+them, it’s about broadening horizons to other philosophies and developing well-rounded
+
+philosophical individuals.}",{},{Last Friday of every month in A331 at 3:20pm.},{},{}
+{Photography Club},{5},{15},{0},{0},{20},{},{Jim Streisel},{9 - 12},"{Photo Club is inactive during the 2016-17 school year. Should students want to start
+
+the club, they should contact one of the sponsors: Jim Streisel, Laura Moore or Kevin Daly}",{},{},{},{}
+{Physics Club},{14},{2},{4},{0},{20},{},{Kimi Fellers},{9 - 12},{Physics Bowl and F=ma prep club},{},{Blue Thursdays E239},{},{}
+{Ping Pong Club},{6},{2},{12},{0},{20},{},{David Schleper},{9 - 12},{We play ping pong after school in the CHS Fieldhouse for an hour.},{},"{Approximately every other Thursday afternoon at the CHS fieldhouse down the
+
+stairs from the Freshman Cafeteria. We meet from 3:15-4:15.}",{},{​$5 membership fee}
+{Planetarium Club},{15},{5},{0},{0},{20},{},{Mr. Turner},{9 - 12},"{Students who want to learn how to operate the star machine and produce a public
+
+planetarium show, this is the club for you!}","{Planetarium Club participates in monthly Public Planetarium programs during the
+
+school year.}",{Monthly meetings in the Planetarium. Listen to announcements for details.},{Serious interest in Astronomy},{}
+{Project Sunshine},{2},{3},{0},{15},{20},{},{Allyson Wells Podell},{9 - 12},"{Project Sunshine is part of a national organization that offers children and their
+
+families relief from the stress of the hospital experience by assembling fun craft kits, making
+
+blankets, and decorating cards.}",{},"{Project Sunshine will meet twice monthly. The club will always meet on gold
+
+days. Dates to be announced. E147}",{},{​Club dues are $6.}
 {Science Bowl},{13},{0},{7},{0},{20},{},{Ginny Kundrat},{9 - 12},"{The U.S. Department of Energy's National Science Bowl is an academic competition
 
 that tests students' knowledge in all areas of science and in math. Students are quizzed in a fast-
@@ -265,7 +384,9 @@ students and one alternate. Teams are formed in the fall.}","{We may host an inv
 March. The winner gets an all-expense trip, the end of April, to the national competition in
 
 Washington D.C.}",{Thursdays after school in B214},{},{}
-{Science for Caring},{8},{3},{0},{9},{20},{},{},{9 - 12},{},{},{},{},{}
+{Science for Caring},{8},{3},{0},{9},{20},{},{Daniel Marble},{9 - 12},"{A service club that helps CHS special needs students gain appreciation for the
+
+sciences.}",{},{About monthly during late start Wednesdays. Visit B205 for information.},{},{}
 {Science Olympiad},{9},{2},{6},{3},{20},{},{Cynthia Henry and Fran Rushing},{9 - 12},"{Science Olympiad is a team-based competition where teams of 15 students from a
 
 school work together on 23 different science events against teams from
@@ -284,13 +405,13 @@ a chance to go to the national competition. Students
 
 learn hard work, teamwork, fun and laughter, and a lot of science.}","{Competitions at:
 
-Whiting HS 
+Whiting HS
 
-Northridge HS 
+Northridge HS
 
-Wright State University 
+Wright State University
 
-Butler University 
+Butler University
 
 Bloomington University }","{Wednesdays 3:15-5:00 in B223. During competition season we also meet
 
@@ -305,8 +426,10 @@ Oratory to Dramatic Interpretation. Students interested in public speaking and/o
 encouraged to participate.}",{Competitions are usually held on Saturdays from 7am-5pm.},{See Jacleen Joiner in E149 for details. Or contact her via email at jjoiner@ccs.k12.in.us},"{It is requested that students have one parent/guardian volunteer to judge 1
 
 competition per season.}",{Costs/Dues: Optional team sweatshirts.}
-{STEM Club},{8},{10},{2},{0},{20},{},{},{9 - 12},{},{},{},{},{}
-{Studio C141},{4},{12},{4},{0},{20},{},{},{9 - 12},{},{},{},{},{}
+{STEM Club},{8},{10},{2},{0},{20},{},{Fran Rushing},{9 - 12},"{Science, Technology, Engineering, and Math}",{},{dates and times vary according to group availability},{},{}
+{Studio C141},{4},{12},{4},{0},{20},{},{Anna Kaiser},{9 - 12},"{Learn how to put together a short video through the three different stages of
+
+pre-production, production and post-production and have them critiqued in front of your peers.}",{},{},{},{}
 {TechHounds},{9},{2},{7},{2},{20},{},{Zach Bonewit and Laura Erli},{9 - 12},"{The TechHOUNDS are a part of an international organization called FIRST (For the
 
 Inspiration and Recognition of Science and Technology) that partners high schools with
@@ -332,13 +455,86 @@ accessible.}","{Once a week during the first semester. Every night plus some opt
 build season (6 weeks in Jan and Feb) in the Engineering and Technology area.}",{Application process required.},"{$150 for team membership and participation. Possible $300-$700 required for
 
 optional competition travels. Opportunity for sponsorships provided.}"
-{TEDx},{7},{9},{0},{4},{20},{},{},{9 - 12},{},{},{},{},{}
-{Typography & Design Club},{6},{14},{0},{0},{20},{},{},{9 - 12},{},{},{},{},{}
-{Ultimate Challenge Club},{4},{3},{9},{4},{20},{},{},{9 - 12},{},{},{},{},{}
-{UNICEF Club},{2},{2},{3},{13},{20},{},{},{9 - 12},{},{},{},{},{}
-{United Sound},{0},{8},{0},{12},{20},{},{},{9 - 12},{},{},{},{},{}
-{Venture Crew},{2},{4},{10},{4},{20},{},{},{9 - 12},{},{},{},{},{}
-{Wild Bunch},{0},{2},{9},{9},{20},{},{},{9 - 12},{},{},{},{},{}
-{World Food Prize},{9},{0},{4},{7},{20},{},{},{9 - 12},{},{},{},{},{}
-{Yoga Club},{2},{7},{11},{0},{20},{},{},{9 - 12},{},{},{},{},{}
-{Young Entrepreneurs},{10},{6},{4},{0},{20},{},{},{9 - 12},{},{},{},{},{}
+{TEDx},{7},{9},{0},{4},{20},{},{Allison Hargrove},{9 - 12},"{TED is an annual event that brings together the world's leading thinkers and doers to
+
+share ideas that matter in any discipline, and the talks at the conference, called TED Talks, are then
+
+made available to watch for free on TED.com. In the spirit of ""ideas worth spreading,"" TED has
+
+created TEDx, a program of local, self-organized events that bring people together to share a
+
+TED-like experience. At our TEDx CHS event, TED Talks videos and live speakers combine to
+
+spark deep discussion and connections. Our TEDx event is not organized by TED Conferences, but
+
+is operated under a license from TED.}",{},"{Every other Monday, room E238}",{},{}
+{Typography & Design Club},{6},{14},{0},{0},{20},{},{Nicole Laughrey},{9 - 12},"{Typography & Design Club focuses on the creation of beautiful and clearly
+
+communicated typographic messages. Involved students will have the chance to learn about hand
+
+lettering and digital typographic design.}","{Some students may have the opportunity to participate in spirit wear design for
+
+other CHS clubs and organizations}","{Mondays, 3:15-4:00 in C145}",{},{}
+{Ultimate Challenge Club},{4},{3},{9},{4},{20},{},{Laurie Backes},{9 - 12},"{The Ultimate Challenge Club involves challenging other school sponsored clubs to
+
+their specific club sport or activity. It is a friendly competition aimed at developing
+
+sportsmanship, meeting new people and most of all...having fun! The UCC is also a great way to
+
+meet some new friends!}","{​Pumpkin Fest, Community Open House and Frosh Rock}","{​Once or twice a month on a Tuesday or Thursday - after school Room A212.
+
+Members are notified through ""Remind"" App.}",{},{}
+{UNICEF Club},{2},{2},{3},{13},{20},{},{Jill Noel},{9 - 12},"{The U.S. Fund for UNICEF supports UNICEF's work, and other efforts in support of
+
+the world's children, through fundraising, advocacy and education in the United States.
+
+UNICEF does whatever it takes to save and protect the world's most vulnerable children. Forty
+
+years ago, UNICEF figured out that promoting simple, low-cost interventions like hand washing
+
+and breastfeeding could save millions of lives. Undaunted by war or geography, UNICEF delivers.}",{},"{Second and fourth Tuesday of each month in F100 after school, unless it is a
+
+holiday or inclement weather.}",{},{}
+{United Sound},{0},{8},{0},{12},{20},{},{Maggie Hite & Dana Lawrence},{9 - 12},"{Matching orchestra students with students with special needs teaching, them how to
+
+play instruments}","{Performances: *Winter Orchestra Concert
+*Spring Orchestra Concert *Others TBA}",{},"{​Students must apply for both Mentor and New Musician
+
+memberships}",{}
+{Venture Crew},{2},{4},{10},{4},{20},{},{Scott Staley},{9 - 12},"{Activities such as wall climbing and college visits through BSA (Boy Scouts of
+
+America) for both male and female students.}",{},"{Monthly meetings: One or two Tuesdays per month in A 319 after school until
+
+4pm and usually one weekend activity per month.}",{},"{​Membership for BSA is $30 for the year. Each monthly activity has
+
+a minimal cost which is usually at a discounted group rate if the student chooses to participate.}"
+{Wild Bunch},{0},{2},{9},{9},{20},{},{Wendy Bass},{9 - 12},{An all-female spirit club to promote school spirit at all sport at CHS.},{},"{No meetings. Students just join the Remind account or follow us on Twitter to learn
+
+about events.}",{},{}
+{World Food Prize},{9},{0},{4},{7},{20},{},{Kathy Hallett},{9 - 12},"{We will explore causes and possible solutions to food insecurity throughout the
+
+world, and then write research papers with possible solutions. Selected students will attend the
+
+World Food Prize Youth Institute at Purdue in April, 2017. Purdue will select students to attend
+
+the World Food Prize Global Youth Institute in Iowa, October, 2017. Qualified students can apply
+
+for research fellowships after attending the event in Iowa.}","{Selected students will attend the Institute at Purdue and possibly in Iowa as
+
+described above. More information will be provided when dates are available.}","{H313, twice a month to be announced.}",{},{}
+{Yoga Club},{2},{7},{11},{0},{20},{},{Kristen Beeson},{9 - 12},"{The yoga club provides its members with a safe, happy place to practice yoga, so that
+
+they can put all thoughts aside and dedicate an hour to themselves and their mat. It's a great way to
+
+refresh yourself and leave with a new sense of energy. We hope to encourage a healthy way of
+
+living through our approach to positive thinking as we work on our strength, balance, and
+
+flexibility through the poses themselves. The club is open to all experience levels, including
+
+beginners. If you've never practiced yoga before but are interested, this is the place for you!}",{},{E129 every other Tuesday; meetings announced in advance},{​Code of conduct form with parent permission},{}
+{Young Entrepreneurs},{10},{6},{4},{0},{20},{},{Deb Lesjak},{9 - 12},"{A student would want to join Young Entrepreneurs to get an understanding of
+
+entrepreneurship, and to work together with other people towards varying business ideas to be presented in
+
+front of venture capitalists.}",{},{email chsentrepreneurs@aol.com},{},{}
