@@ -28,7 +28,6 @@ public class Club implements Comparable<Club>{
         this.community = community;
     }
 
-
     public String getClubName() {
         return clubName;
     }
@@ -36,6 +35,7 @@ public class Club implements Comparable<Club>{
     public void setClubName(String clubName) {
         this.clubName = clubName;
     }
+
 
     public int getClubScore() {
         return clubScore;
