@@ -4,23 +4,16 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.style.QuoteSpan;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.nio.charset.CharacterCodingException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.logging.Handler;
 
 public class QuestionActivity extends AppCompatActivity {
 
@@ -90,11 +83,12 @@ public class QuestionActivity extends AppCompatActivity {
         if (currentQuestionNumber < questions.size()) {
             updateQuestionDisplay(questions.get(currentQuestionNumber));
         } else {
-            question.setText("Please restart");
+            question.setText("Please click back");
             for (int i = 0; i < buttons.length; i++){
                 buttons[i].setVisibility(View.INVISIBLE);
             }
             calculateClubs(); //jump to results screen
+
         }
 
     }
@@ -159,7 +153,7 @@ public class QuestionActivity extends AppCompatActivity {
             totalSports += q.getAnswer().getSports();
             totalCommunity += q.getAnswer().getCommunity();
         }
-        Intent intent = new Intent(getApplicationContext(), ResultsAcitivty.class);
+        Intent intent = new Intent(getApplicationContext(), ResultsActivity.class);
         intent.putExtra("totalAcademics", totalAcademics);
         intent.putExtra("totalArtistic", totalArtistic);
         intent.putExtra("totalSports", totalSports);
