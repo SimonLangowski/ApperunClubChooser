@@ -10,4 +10,7 @@
     <string name="meetings">Meetings: %s</string>
     <string name="events">Events: %s</string>
     <string name="question">Which activity do you like the best?</string>
+    <string name="title_activity_results_acitivty">Results</string>
+    <string name="info">Click on a club to learn more!</string>
+
 </resources>
