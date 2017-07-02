@@ -14,20 +14,20 @@ public class TitleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_title);
         Button start = (Button) findViewById(R.id.start);
-        Button restart = (Button) findViewById(R.id.restart);
+        Button results= (Button) findViewById(R.id.restart); //no longer restarts
         EditText nameEntry = (EditText) findViewById(R.id.nameEntry);
         start.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), QuestionActivity.class);
-                intent.putExtra("restart", false);
+                intent.putExtra("restart", true);
                 startActivity(intent);
             }
         });
         //start over button
-        restart.setOnClickListener(new View.OnClickListener() {
+        results.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), QuestionActivity.class);
-                intent.putExtra("restart", true);
+                intent.putExtra("restart", false);
                 startActivity(intent);
             }
         });
