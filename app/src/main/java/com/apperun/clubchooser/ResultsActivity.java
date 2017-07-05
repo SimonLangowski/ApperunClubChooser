@@ -1,6 +1,7 @@
 package com.apperun.clubchooser;
 
 import android.content.Intent;
+import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -65,6 +66,7 @@ public class ResultsActivity extends AppCompatActivity {
             });
             clubClicker.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.MATCH_PARENT));
             clubClicker.setGravity(Gravity.CENTER_HORIZONTAL);
+            clubClicker.getBackground().setColorFilter(0x00EEEE00, PorterDuff.Mode.MULTIPLY);
             row.setGravity(Gravity.CENTER_HORIZONTAL);
             row.addView(clubClicker);
             table.addView(row, new TableLayout.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableLayout.LayoutParams.MATCH_PARENT));
