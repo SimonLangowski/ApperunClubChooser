@@ -63,7 +63,9 @@ public class ResultsActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
             });
-            clubClicker.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
+            clubClicker.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.MATCH_PARENT));
+            clubClicker.setGravity(Gravity.CENTER_HORIZONTAL);
+            row.setGravity(Gravity.CENTER_HORIZONTAL);
             row.addView(clubClicker);
             table.addView(row, new TableLayout.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableLayout.LayoutParams.MATCH_PARENT));
         }
