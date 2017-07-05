@@ -13,15 +13,28 @@
         android:layout_height="fill_parent">
 
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/menu"
+            android:text="Menu"
+            />
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/info"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/menu"
             android:textSize="18sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
             android:padding="8dp"/>
+
+
 
         <TableLayout
             android:id="@+id/table"
