@@ -51,13 +51,15 @@ public class ResultsActivity extends AppCompatActivity {
             TableRow row = new TableRow(getApplicationContext());
             row.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
             Button clubClicker = new Button(getApplicationContext());
-            clubClicker.setText(clubs.get(i).getClubName());
+            String text = "" + (i+1) + ")" + " " + clubs.get(i).getClubName();
+            clubClicker.setText(text);
             clubClicker.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Button b = (Button) v;
                     Intent intent = new Intent(getApplicationContext(), DescriptionActivity.class);
-                    intent.putExtra("clubname", b.getText().toString());
+                    String clubName = b.getText().toString().substring(b.getText().toString().indexOf(')') + 2);
+                    intent.putExtra("clubname", clubName);
                     startActivity(intent);
                 }
             });
