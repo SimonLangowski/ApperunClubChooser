@@ -8,24 +8,26 @@
     tools:context="com.apperun.clubchooser.TitleActivity">
 
     <RelativeLayout
-        android:id = "@+id/titleLayout"
+        android:id="@+id/titleLayout"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_margin="8dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="213dp">
 
         <TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginTop="111dp"
+
             android:fontFamily="cursive"
             android:gravity="center"
             android:text="CHS club chooser"
-            android:textSize="24sp"
-
-            />
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/start"
@@ -37,14 +39,14 @@
             android:text="Start" />
 
         <Button
-            android:id="@+id/restart"
+            android:id="@+id/lastResults"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="24dp"
-            android:textColor="@android:color/holo_blue_dark"
-            android:text="View last results" />
+            android:text="View last results"
+            android:textColor="@android:color/holo_blue_dark" />
 
         <EditText
             android:id="@+id/nameEntry"
@@ -54,7 +56,7 @@
             android:layout_centerHorizontal="true"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Type your name here" />
+            android:hint="Type your name here" />
 
         <TextView
             android:id="@+id/name"
@@ -62,7 +64,18 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/title"
             android:layout_centerHorizontal="true"
-            android:text = "name"/>
+            android:text="name" />
+
+        <Button
+            android:id="@+id/listOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/lastResults"
+            android:layout_centerHorizontal="true"
+            android:padding = "8dp"
+            android:text="View club list"
+            android:textColor="@android:color/holo_blue_dark"/>
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

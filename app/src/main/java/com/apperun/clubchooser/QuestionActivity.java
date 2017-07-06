@@ -44,53 +44,57 @@ public class QuestionActivity extends AppCompatActivity {
             questions.add(q[i]);
         }
         */
-        questions = makeQuestions2();
 
-        storage = getPreferences(0);
-        if (storage.contains("questionNumber")) {
-            currentQuestionNumber = storage.getInt("questionNumber", 0);
+        if ((getIntent().getBooleanExtra("listOnly",false))){
+            listOnly();
         } else {
-            currentQuestionNumber = 0;
-        }
-        if (getIntent().getBooleanExtra("restart", false)){
-            currentQuestionNumber = 0;
-            SharedPreferences.Editor editor = storage.edit();
-            editor.clear(); //removes ALL stored preferences across app
-            for (int i = 0; i < questions.size(); i++) {
-                String key = "question" + i;
-                if (storage.contains(key)) {
-                    editor.remove(key);
+            questions = makeQuestions2();
+
+            storage = getPreferences(0);
+            if (storage.contains("questionNumber")) {
+                currentQuestionNumber = storage.getInt("questionNumber", 0);
+            } else {
+                currentQuestionNumber = 0;
+            }
+            if (getIntent().getBooleanExtra("restart", false)) {
+                currentQuestionNumber = 0;
+                SharedPreferences.Editor editor = storage.edit();
+                editor.clear(); //removes ALL stored preferences across app
+                for (int i = 0; i < questions.size(); i++) {
+                    String key = "question" + i;
+                    if (storage.contains(key)) {
+                        editor.remove(key);
+                    }
                 }
-            }
-            editor.commit();
-        } else {  //get old answers
-            SharedPreferences.Editor editor = storage.edit();
-            for (int i = 0; i < questions.size(); i++) {
-                String key = "question" + i;
-                if (storage.contains(key)) {
-                    int previousAnswer = storage.getInt(key, 0);
-                    questions.get(i).setSelected(previousAnswer);
-                } else {
-                    //currentQuestionNumber = i; //should be true but retrieved from storage already
-                    break; //all other questions yet to be answered
+                editor.commit();
+            } else {  //get old answers
+                SharedPreferences.Editor editor = storage.edit();
+                for (int i = 0; i < questions.size(); i++) {
+                    String key = "question" + i;
+                    if (storage.contains(key)) {
+                        int previousAnswer = storage.getInt(key, 0);
+                        questions.get(i).setSelected(previousAnswer);
+                    } else {
+                        //currentQuestionNumber = i; //should be true but retrieved from storage already
+                        break; //all other questions yet to be answered
+                    }
                 }
+                editor.commit();
             }
-            editor.commit();
-        }
 
-        question.setText(R.string.question);
+            question.setText(R.string.question);
 
-        if (currentQuestionNumber < questions.size()) {
-            updateQuestionDisplay(questions.get(currentQuestionNumber));
-        } else {
-            question.setText("Please click back");
-            for (int i = 0; i < buttons.length; i++){
-                buttons[i].setVisibility(View.INVISIBLE);
+            if (currentQuestionNumber < questions.size()) {
+                updateQuestionDisplay(questions.get(currentQuestionNumber));
+            } else {
+                question.setText("Please click back");
+                for (int i = 0; i < buttons.length; i++) {
+                    buttons[i].setVisibility(View.INVISIBLE);
+                }
+                calculateClubs(); //jump to results screen
+
             }
-            calculateClubs(); //jump to results screen
-
         }
-
     }
 
     public void updateQuestionDisplay(Question q){
@@ -158,7 +162,16 @@ public class QuestionActivity extends AppCompatActivity {
         intent.putExtra("totalArtistic", totalArtistic);
         intent.putExtra("totalSports", totalSports);
         intent.putExtra("totalCommunity", totalCommunity);
+        intent.putExtra("listOnly", false);
         startActivity(intent);
+        finish();
+    }
+
+    public void listOnly(){
+        Intent intent = new Intent(getApplicationContext(), ResultsActivity.class);
+        intent.putExtra("listOnly", true);
+        startActivity(intent);
+        finish();
     }
 
 

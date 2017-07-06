@@ -1,6 +1,7 @@
 package com.apperun.clubchooser;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -41,9 +42,23 @@ public class ResultsActivity extends AppCompatActivity {
         totalCommunity = extras.getInt("totalCommunity", 0);
         totalSports = extras.getInt("totalSports", 0);
 
+        Button menu = (Button) findViewById(R.id.menu);
+        menu.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                finish();
+            }
+        });
+
         clubs = makeClubs();
-        for (Club c : clubs){
-            c.computeClubScore(totalAcademics,totalArtistic,totalSports,totalCommunity);
+        if ((extras.getBoolean("listOnly", false))){
+            for (Club c : clubs){ //set scores to 0?
+                c.setClubScore(0);
+            }
+        } else {
+            for (Club c : clubs){
+                c.computeClubScore(totalAcademics,totalArtistic,totalSports,totalCommunity);
+            }
         }
         Collections.sort(clubs);
 
@@ -66,7 +81,8 @@ public class ResultsActivity extends AppCompatActivity {
             });
             clubClicker.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.MATCH_PARENT));
             clubClicker.setGravity(Gravity.CENTER_HORIZONTAL);
-            clubClicker.getBackground().setColorFilter(0x00EEEE00, PorterDuff.Mode.MULTIPLY);
+            clubClicker.getBackground().setColorFilter(getResources().getColor(R.color.gold), PorterDuff.Mode.MULTIPLY); //make yellow
+            clubClicker.setTextColor(Color.BLUE); //make blue
             row.setGravity(Gravity.CENTER_HORIZONTAL);
             row.addView(clubClicker);
             table.addView(row, new TableLayout.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableLayout.LayoutParams.MATCH_PARENT));
