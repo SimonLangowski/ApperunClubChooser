@@ -52,7 +52,7 @@ public class Club implements Comparable<Club>{
     @Override
     public int compareTo(@NonNull Club c) {
         if (this.clubScore == c.getClubScore()){
-            return 0;
+            return this.clubName.compareTo(c.getClubName()); //sort alphabetically
         } else if (this.clubScore < c.clubScore){
             return -1;//I'm first
         } else {
