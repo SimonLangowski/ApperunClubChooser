@@ -16,10 +16,10 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
             android:layout_alignParentTop="true"
             android:id="@+id/menu"
-            android:text="Menu"
+            android:text="Return To Menu"
             />
 
         <TextView
@@ -27,8 +27,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/info"
-            android:layout_alignParentTop="true"
-            android:layout_toRightOf="@id/menu"
+            android:layout_below="@id/menu"
+            android:layout_centerHorizontal="true"
             android:textSize="18sp"
             android:fontFamily="sans-serif"
             android:textStyle="bold"
