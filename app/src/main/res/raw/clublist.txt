@@ -1,11 +1,11 @@
 Academic Competition Team,10,3,7,0,20
 Academic Super Bowl,7,7,5,1,20
 Advanced Computer Science,13,7,0,0,20
-Anime,4,12,0,4,20
+Anime Club,4,12,0,4,20
 Art Club,2,17,0,1,20
 Baking a Difference,6,10,0,4,20
 Best Buddies,4,1,0,15,20
-Big Game,0,0,9,11,20
+Big Game Club,0,0,9,11,20
 Biology Club,17,0,0,3,20
 Bollywood Club,0,10,7,3,20
 Chem Club,8,4,0,8,20
@@ -58,7 +58,7 @@ Ultimate Challenge Club,4,3,9,4,20
 UNICEF Club,2,2,3,13,20
 United Sound,0,8,0,12,20
 Venture Crew,2,4,10,4,20
-Wild Bunch,0,2,9,9,20
+Wild Bunch Club,0,2,9,9,20
 World Food Prize,9,0,4,7,20
 Yoga Club,2,7,11,0,20
 Young Entrepreneurs,10,6,4,0,20
