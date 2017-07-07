@@ -47,8 +47,11 @@ public class TitleActivity extends AppCompatActivity {
                 intent.putExtra("listOnly", false);
                 if (keepName){
                     SharedPreferences.Editor editor = storage.edit();
-                    editor.putString("name", nameEntry.getText().toString());
-                    editor.commit();
+                    String name = nameEntry.getText().toString();
+                    if (!(name.equals(""))) {
+                        editor.putString("name", name);
+                        editor.commit();
+                    }
                 }
                 startActivity(intent);
             }
@@ -61,8 +64,11 @@ public class TitleActivity extends AppCompatActivity {
                 intent.putExtra("listOnly", false);
                 if (keepName){
                     SharedPreferences.Editor editor = storage.edit();
-                    editor.putString("name", nameEntry.getText().toString());
-                    editor.commit();
+                    String name = nameEntry.getText().toString();
+                    if (!(name.equals(""))) {
+                        editor.putString("name", name);
+                        editor.commit();
+                    }
                 }
                 startActivity(intent);
             }
