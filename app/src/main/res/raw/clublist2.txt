@@ -18,7 +18,7 @@ of the competitions: TBD.}",{},{}
 is meant to help students become more prepared for post-secondary CS education/career.
 
 Special events​: May 2nd, 2017 - Student Poster Sessions for Students, Parents and Supporters.}",{},{​Every two weeks on Tuesdays 3:20 to 4:00-4:15 PM.},{},{}
-{Anime},{4},{12},{0},{4},{20},{},{Rita Winters},{9 - 12},"{This club views anime, the newest phenomenon in America. Also, we'll watch old
+{Anime Club},{4},{12},{0},{4},{20},{},{Rita Winters},{9 - 12},"{This club views anime, the newest phenomenon in America. Also, we'll watch old
 
 classics and acquaint members with new series.}",{},{Every other Monday in the Freshman Center LGI Room from 3:30 to 5:00.},{},{$5 for snacks.}
 {Art Club},{2},{17},{0},{1},{20},{},"{Jennifer Bubp, Linda Lutes, Drew Murray, and Janine Shafer}",{9 - 12},"{Art Club participates in community service projects, art shows, and silent art auctions
@@ -46,7 +46,7 @@ participation in baking is allowed.}"
 intellectual and developmental disabilities.}",{},{Meeting vary monthly. Most are during SRT but we also have monthly outings.},"{​Time is required to spend with your Buddy; no financial
 
 requirements.}",{}
-{Big Game},{0},{0},{9},{11},{20},{},{​Brad Pearson},{9 - 12},"{Spirit club of Carmel High School that helps lead the student body in school spirit in
+{Big Game Club},{0},{0},{9},{11},{20},{},{​Brad Pearson},{9 - 12},"{Spirit club of Carmel High School that helps lead the student body in school spirit in
 
 a manner that represents the school in a positive way and always shows sportsmanship to the
 
@@ -508,7 +508,7 @@ America) for both male and female students.}",{},"{Monthly meetings: One or two 
 4pm and usually one weekend activity per month.}",{},"{​Membership for BSA is $30 for the year. Each monthly activity has
 
 a minimal cost which is usually at a discounted group rate if the student chooses to participate.}"
-{Wild Bunch},{0},{2},{9},{9},{20},{},{Wendy Bass},{9 - 12},{An all-female spirit club to promote school spirit at all sport at CHS.},{},"{No meetings. Students just join the Remind account or follow us on Twitter to learn
+{Wild Bunch Club},{0},{2},{9},{9},{20},{},{Wendy Bass},{9 - 12},{An all-female spirit club to promote school spirit at all sport at CHS.},{},"{No meetings. Students just join the Remind account or follow us on Twitter to learn
 
 about events.}",{},{}
 {World Food Prize},{9},{0},{4},{7},{20},{},{Kathy Hallett},{9 - 12},"{We will explore causes and possible solutions to food insecurity throughout the

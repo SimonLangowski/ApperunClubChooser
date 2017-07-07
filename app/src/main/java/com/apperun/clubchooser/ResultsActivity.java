@@ -81,8 +81,8 @@ public class ResultsActivity extends AppCompatActivity {
             });
             clubClicker.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.MATCH_PARENT));
             clubClicker.setGravity(Gravity.CENTER_HORIZONTAL);
-            clubClicker.getBackground().setColorFilter(getResources().getColor(R.color.gold), PorterDuff.Mode.MULTIPLY); //make yellow
-            clubClicker.setTextColor(Color.BLUE); //make blue
+            clubClicker.getBackground().setColorFilter(getResources().getColor(R.color.gray), PorterDuff.Mode.MULTIPLY); //make yellow
+            clubClicker.setTextColor(Color.BLACK); //make blue
             row.setGravity(Gravity.CENTER_HORIZONTAL);
             row.addView(clubClicker);
             table.addView(row, new TableLayout.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableLayout.LayoutParams.MATCH_PARENT));

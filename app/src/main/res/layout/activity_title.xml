@@ -45,8 +45,8 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="24dp"
-            android:text="View last results"
-            android:textColor="@android:color/holo_blue_dark" />
+            android:text="View Past Results"
+            android:textColor="@color/colorPrimary" />
 
         <EditText
             android:id="@+id/nameEntry"
@@ -72,9 +72,9 @@
             android:layout_height="wrap_content"
             android:layout_above="@id/lastResults"
             android:layout_centerHorizontal="true"
-            android:padding = "8dp"
+            android:padding="8dp"
             android:text="View club list"
-            android:textColor="@android:color/holo_blue_dark"/>
+            android:textColor="@color/colorPrimary" />
 
     </RelativeLayout>
 
