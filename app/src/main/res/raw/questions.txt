@@ -4,7 +4,7 @@ Drama,Leadership,Jeopardy,Learning
 Writing,Debate,Speaking in a foreign language,Going to a football game
 Photography,Medicine,Mentoring,Competition
 Reading Scientific Theory,Discussing philosophy,Eating Food,Taking risks
-Improvisation,Trivia,Media,Music
-Practicing,Doing stunts,Solving puzzles,Eating Food
+Comedy Improvisation,Trivia,Watching Media,Music
+Practicing sports,Doing stunts,Solving puzzles,Eating Food
 Public service,Teamwork,Design,Science experiments
 Conversation,Dancing,Working with money,Helping people
