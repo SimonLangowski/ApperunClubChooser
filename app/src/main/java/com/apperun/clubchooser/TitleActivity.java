@@ -18,6 +18,7 @@ public class TitleActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("CHS Club Recommender");
         setContentView(R.layout.activity_title);
         RelativeLayout layout = (RelativeLayout) findViewById(R.id.titleLayout);
         layout.setMinimumWidth(getWindowManager().getDefaultDisplay().getWidth());

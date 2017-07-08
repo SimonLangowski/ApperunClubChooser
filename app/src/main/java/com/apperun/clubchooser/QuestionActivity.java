@@ -28,6 +28,7 @@ public class QuestionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("CHS Club Recommender");
         setContentView(R.layout.activity_question);
         question = (TextView) findViewById(R.id.question);
         choice1 = (Button) findViewById(R.id.choice1);
