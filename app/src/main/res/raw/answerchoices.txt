@@ -6,7 +6,7 @@ Writing,,1,0,1,0,2,,
 Discussing philosophy,,1,0,1,0,2,,
 Speaking in a foreign language,,0,0,2,0,2,,
 Doing math,,1,1,0,0,2,,d
-Making food,,0,0,1,1,2,,
+Making Food,,0,0,1,1,2,,
 Going to a football game,,0,1,0,1,2,,
 Eating Food,,0,0,0,2,2,,d
 Working with money,,1,0,0,1,2,,
